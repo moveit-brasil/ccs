@@ -392,8 +392,8 @@
 #chat-messages .fromID-22377137 .badge-box i,
 #chat-messages  .id-22377137 .badge-box i {
     background-size: cover;
-    width: 100%px;
-    height: 100%px;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
     border: none;
