@@ -1,0 +1,45 @@
+/* definições de CSS em massa para não usar tanta linha de css repetida */
+/* badges */
+
+/* Shadow-Slayer [4080795] */
+#chat-messages .fromID-4080795 .badge-box i,
+#chat-messages  .id-4080795 .badge-box i,
+/* Eduarda Correa [5401598] */
+#chat-messages .fromID-5401598 .badge-box i,
+#chat-messages  .id-5401598 .badge-box i {
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    border: none;
+    border-radius: 0;
+}
+
+/* definições de CSS em massa para não usar tanta linha de css repetida */
+/* zoom */
+
+/* Shadow-Slayer [4080795] */
+#chat-messages .fromID-4080795 .clickable:hover,
+#chat-messages .id-4080795 .clickable:hover,
+/* Eduarda Correa [5401598] */
+#chat-messages .fromID-5401598 .clickable:hover,
+#chat-messages .id-5401598 .clickable:hover {
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    background-position: initial;
+    background-repeat: no-repeat !important;
+}
+
+/* Shadow-Slayer [4080795] */
+#chat-messages .fromID-4080795 .badge-box i,
+#chat-messages  .id-4080795 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/6b339b1d098965c7496e3b7e58573962?s=300);
+}
+
+/* Eduarda Correa [5401598] */
+#chat-messages .fromID-5401598 .badge-box i,
+#chat-messages  .id-5401598 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/5d85982a88aaa91e10ec167f682df7ba?s=300);
+}
