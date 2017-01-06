@@ -18,4 +18,4 @@ Depende. O GitHub Pages pode ser utilizado tanto ao criar um repositório com a 
 
 Não muda quase nada do que você estava acostumado a fazer! Logo abaixo do número de Commits (e logo acima dos arquivos), vai ter um botãozinho "Branch" que vai dizer em qual Branch você está. Clique nele e um menu deve abrir, caso não esteja na Branch correta, por favor, selecione-a (gh-pages) antes de fazer quaisquer alterações.
 
-![Image](../blob/master/contributing_image.png?raw=true)
+![Image](../master/contributing_image.png?raw=true)
