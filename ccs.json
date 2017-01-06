@@ -634,7 +634,10 @@
 		"!swap": 2,
 		"!theme": 0,
 		"!tema": 0,
-		"!jailson": 0,
+		"!jailson": {
+		"role": 0,
+		"icon": "https://cdn.radiant.dj/rcs/emotes/img/orilurk.png"
+		},
 		"!timeguard": 2,
 		"!togglebl": 2,
 		"!togglemotd": 2,
