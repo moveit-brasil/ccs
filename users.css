@@ -390,7 +390,13 @@
 #chat-messages  .id-22156816 .badge-box i,
 /* MlkRetardado [22377137] */
 #chat-messages .fromID-22377137 .badge-box i,
-#chat-messages  .id-22377137 .badge-box i {
+#chat-messages  .id-22377137 .badge-box i,
+/* poisonsociety [6100629] */
+#chat-messages .fromID-6100629 .badge-box i,
+#chat-messages  .id-6100629 .badge-box i,
+/* _Cσиєcт Gamer_ [23074016] */
+#chat-messages .fromID-23074016 .badge-box i,
+#chat-messages  .id-23074016 .badge-box i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -793,7 +799,13 @@
 #chat-messages .id-22156816 .badge-box:hover,
 /* MlkRetardado [22377137] */
 #chat-messages .fromID-22377137 .badge-box:hover,
-#chat-messages  .id-22377137 .badge-box:hover {
+#chat-messages  .id-22377137 .badge-box:hover,
+/* poisonsociety [6100629] */
+#chat-messages .fromID-6100629 .badge-box:hover,
+#chat-messages  .id-6100629 .badge-box:hover,
+/* _Cσиєcт Gamer_ [23074016] */
+#chat-messages .fromID-23074016 .badge-box:hover,
+#chat-messages  .id-23074016 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s
@@ -1581,8 +1593,14 @@
     background-image: url(https://s.gravatar.com/avatar/2ecb491b27c06f7ef615f26cba4c201e?s=300);
 }
 
-/* poisonsociety  [6100629 ] */
+/* poisonsociety  [6100629] */
 #chat-messages .fromID-6100629  .badge-box i,
 #chat-messages .id-6100629  .badge-box i {
     background-image: url(http://s.gravatar.com/avatar/9a78ccdf2187e778dbf9687a6aa51d3e?s=300);
+}
+
+/* _Cσиєcт Gamer_  [23074016] */
+#chat-messages .fromID-23074016 .badge-box i,
+#chat-messages .id-23074016 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/316f0e835805a376fbab8ddf35698a24?s=300);
 }
