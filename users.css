@@ -1594,8 +1594,8 @@
 }
 
 /* poisonsociety  [6100629] */
-#chat-messages .fromID-6100629  .badge-box i,
-#chat-messages .id-6100629  .badge-box i {
+#chat-messages .fromID-6100629 .badge-box i,
+#chat-messages .id-6100629 .badge-box i {
     background-image: url(http://s.gravatar.com/avatar/9a78ccdf2187e778dbf9687a6aa51d3e?s=300);
 }
 
