@@ -546,7 +546,10 @@
 		"!autoroulette": 2,
 		"!automsg": 2,
 		"!autoskip": 2,
-		"!autowoot": 0,
+		"!autowoot": {
+		"role": 0,
+		"icon": "https://cdn.radiant.dj/rcs/icons/rcs_selected.png"
+		},
 		"!ba": 0,
 		"!8ball": 0,
 		"!ask": 0,
