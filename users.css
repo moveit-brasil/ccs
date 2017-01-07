@@ -1580,3 +1580,9 @@
 #chat-messages .id-22377137 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/2ecb491b27c06f7ef615f26cba4c201e?s=300);
 }
+
+/* poisonsociety  [6100629 ] */
+#chat-messages .fromID-6100629  .badge-box i,
+#chat-messages .id-6100629  .badge-box i {
+    background-image: url(http://s.gravatar.com/avatar/9a78ccdf2187e778dbf9687a6aa51d3e?s=300);
+}
