@@ -1182,3 +1182,13 @@ div#rs_autowoot_normal.button.submit.cancel {
     background: rgba(105, 79, 28, 0.32) !important;
     color: #eee;
 }
+/* Cores status perfil*/
+#user-rollover .meta .joined {
+color: #ffffff !important;
+}
+#user-rollover .meta .user-id {
+color: #ffffff !important;
+}
+#user-rollover .meta .showID {
+color: #ffffff !important;
+}
