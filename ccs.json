@@ -637,6 +637,7 @@
 		"!skip": 2,
 		"!smartskip": 2,
 		"!skippos": 3,
+		"!social": 0,
 		"!songstats": 2,
 		"!source": 0,
 		"!status": 2,
