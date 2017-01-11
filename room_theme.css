@@ -1186,8 +1186,8 @@ div#rs_autowoot_normal.button.submit.cancel {
 #user-rollover .meta .joined {
 color: #ffffff !important;
 }
-#user-rollover .meta .user-id {
-color: #ffffff !important;
+#user-rollover .meta span.user-id {
+color: #fff !important;
 }
 #user-rollover .meta .showID {
 color: #ffffff !important;
