@@ -396,7 +396,10 @@
 #chat-messages  .id-6100629 .badge-box i,
 /* _Cσиєcт Gamer_ [6263878] */
 #chat-messages .fromID-6263878 .badge-box i,
-#chat-messages  .id-6263878 .badge-box i {
+#chat-messages  .id-6263878 .badge-box i,
+/* iamikaizo [5076690] */
+#chat-messages .fromID-5076690 .badge-box i,
+#chat-messages  .id-5076690 .badge-box i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -805,7 +808,10 @@
 #chat-messages  .id-6100629 .badge-box:hover,
 /* _Cσиєcт Gamer_ [6263878] */
 #chat-messages .fromID-6263878 .badge-box:hover,
-#chat-messages  .id-6263878 .badge-box:hover {
+#chat-messages  .id-6263878 .badge-box:hover,
+/* iamikaizo [5076690] */
+#chat-messages .fromID-5076690 .badge-box:hover,
+#chat-messages  .id-5076690 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s
@@ -1603,4 +1609,10 @@
 #chat-messages .fromID-6263878 .badge-box i,
 #chat-messages .id-6263878 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/316f0e835805a376fbab8ddf35698a24?s=300);
+}
+
+/* iamikaizo [5076690] */
+#chat-messages .fromID-5076690 .badge-box i,
+#chat-messages .id-5076690 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/837b33d3ae388c7ba9313b7e1775c70c?s=300);
 }
