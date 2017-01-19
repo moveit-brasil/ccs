@@ -468,10 +468,10 @@ i.icon.icon-room {
 .communities .grid .cell .meta .join {
     border-radius: 10px;
     border: 1px solid rgba(196, 152, 64, 0.63);
-    background: #000000;
+    background: rgba(0, 0, 0);
 }
 .communities .grid .cell .meta .join:hover {
-    background: rgba(196, 152, 64, 0.63);
+    background: linear-gradient(hsl(40, 61%, 53%), hsla(42, 62%, 21%, 0.95));
 }
 #chat .welcome {
     color: #c59840;
