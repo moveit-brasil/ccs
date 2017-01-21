@@ -1192,3 +1192,37 @@ color: #fff !important;
 #user-rollover .meta .showID {
 color: #ffffff !important;
 }
+/* Hover itens menu de configuração plug */
+#user-settings .container .item:hover {
+    background: linear-gradient(rgba(165, 125, 47, 0.38), rgba(117, 87, 29, 0.29));
+    border-radius: 10px;
+}
+/* Hover itens menu usuário plug */
+.item.profile.notify:hover {
+    background: linear-gradient(rgba(165, 125, 47, 0.68), rgba(117, 87, 29, 0.39));
+    border-radius: 10px;
+}
+.item.inventory:hover {
+    background: linear-gradient(rgba(165, 125, 47, 0.68), rgba(117, 87, 29, 0.39));
+    border-radius: 10px;
+}
+.item.store:hover{
+    background: linear-gradient(rgba(165, 125, 47, 0.68), rgba(117, 87, 29, 0.39));
+    border-radius: 10px;
+}
+.item.friends.notify:hover{
+    background: linear-gradient(rgba(165, 125, 47, 0.68), rgba(117, 87, 29, 0.39));
+    border-radius: 10px;
+}
+.item.played:hover{
+    background: linear-gradient(rgba(165, 125, 47, 0.68), rgba(117, 87, 29, 0.39));
+    border-radius: 10px;
+}
+.item.community:hover{
+    background: linear-gradient(rgba(165, 125, 47, 0.68), rgba(117, 87, 29, 0.39));
+    border-radius: 10px;
+}
+.item.settings:hover{
+    background: linear-gradient(rgba(165, 125, 47, 0.68), rgba(117, 87, 29, 0.39));
+    border-radius: 10px;
+}
