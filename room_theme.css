@@ -1226,3 +1226,10 @@ color: #ffffff !important;
     background: linear-gradient(rgba(165, 125, 47, 0.68), rgba(117, 87, 29, 0.39));
     border-radius: 10px;
 }
+/* Barra de avatares plug */
+#user-settings .container .cap .slider .bar {
+background: linear-gradient(rgb(90, 67, 20), rgba(74, 56, 16, 0.952941));
+}
+#user-settings .container .cap .slider .circle {
+    background: linear-gradient(rgb(199, 157, 68), rgba(78, 62, 27, 0.952941));
+}
