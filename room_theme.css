@@ -67,7 +67,7 @@
     background: rgba(0, 0, 0, 0.5) !important;
 }
 .tab-menu button.selected {
-    background: linear-gradient(hsl(40, 61%, 54%), hsl(40, 59%, 31%));
+    background: linear-gradient(hsl(40, 61%, 54%), hsl(40, 59%, 31%)) !important;
 }
 .tab-menu button:hover {
     background: linear-gradient(hsla(40, 53%, 36%, 1), hsl(40, 59%, 31%));
