@@ -1283,3 +1283,17 @@ background: linear-gradient(rgb(90, 67, 20), rgba(74, 56, 16, 0.952941));
     transform: translate3d(2px, 0, 0);
   }
 }
+
+/* Botoes deletar/Esconder mensagem chat */
+#chat .delete-button { 
+    background: linear-gradient(hsl(40, 66%, 20%), hsl(40, 67%, 7%));
+    border-radius: 8px;
+} 
+#chat .delete-button:hover { 
+   background: linear-gradient(hsl(0, 77%, 30%), hsl(0, 80%, 19%));
+    border-radius: 8px;
+}
+.radiantimg-delete { 
+background: linear-gradient(hsl(266, 80%, 22%), hsl(269, 81%, 13%)) !important;
+border-radius: 8px;
+}
