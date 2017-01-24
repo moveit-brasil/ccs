@@ -292,9 +292,6 @@
 /* _ThomasFr [14766508] */
 #chat-messages .fromID-14766508 .badge-box i,
 #chat-messages  .id-14766508 .badge-box i,
-/* Gabs_f1 [15418744] */
-#chat-messages .fromID-15418744 .badge-box i,
-#chat-messages  .id-15418744 .badge-box i,
 /* Pãozinho7 [15511589] */
 #chat-messages .fromID-15511589 .badge-box i,
 #chat-messages  .id-15511589 .badge-box i,
@@ -406,7 +403,7 @@
 /* Magrelo Drama [6302310] */
 #chat-messages .fromID-6302310 .badge-box i,
 #chat-messages  .id-6302310 .badge-box i,
-/* Gabriela Ferreira [15418744] */
+/* Gabriela Ferreira(Gabs_f1) [15418744] */
 #chat-messages .fromID-15418744  .badge-box i,
 #chat-messages  .id-15418744  .badge-box i {
     background-size: cover;
@@ -713,9 +710,6 @@
 /* _ThomasFr [14766508] */
 #chat-messages .fromID-14766508 .badge-box:hover,
 #chat-messages .id-14766508 .badge-box:hover,
-/* Gabs_f1 [15418744] */
-#chat-messages .fromID-15418744 .badge-box:hover,
-#chat-messages .id-15418744 .badge-box:hover,
 /* Pãozinho7 [15511589] */
 #chat-messages .fromID-15511589 .badge-box:hover,
 #chat-messages .id-15511589 .badge-box:hover,
@@ -827,7 +821,7 @@
 /* Magrelo Drama [6302310] */
 #chat-messages .fromID-6302310 .badge-box:hover,
 #chat-messages  .id-6302310 .badge-box:hover,
-/* Gabriela Ferreira [15418744] */
+/* Gabriela Ferreira(Gabs_f1) [15418744] */
 #chat-messages .fromID-15418744  .badge-box:hover,
 #chat-messages  .id-15418744  .badge-box:hover {
     width: 75px;
@@ -1419,12 +1413,6 @@
     background-image: url(https://s.gravatar.com/avatar/f6d660bcb09781f76f2a4ae7c3a37580?s=300);
 }
 
-/* Gabs_f1 [15418744] */
-#chat-messages .fromID-15418744 .badge-box i,
-#chat-messages .id-15418744 .badge-box i {
-    background-image: url(https://s.gravatar.com/avatar/bbc41dd498f1aa0cfac9abed8b69c12e?s=300);
-}
-
 /* Pãozinho7 [15511589] */
 #chat-messages .fromID-15511589 .badge-box i,
 #chat-messages .id-15511589 .badge-box i {
@@ -1647,7 +1635,7 @@
     background-image: url(https://s.gravatar.com/avatar/6eb4c0149896c2b0c0f6bcbbe1cadf87?s=300);
 }
 
-/* Gabriela Ferreira [15418744] */
+/* Gabriela Ferreira(Gabs_f1) [15418744] */
 #chat-messages .fromID-15418744 .badge-box i,
 #chat-messages .id-15418744 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/268a7c09ad65a495e5005c8dafa9e5c5?s=300);
