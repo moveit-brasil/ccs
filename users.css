@@ -406,9 +406,9 @@
 /* Gabriela Ferreira(Gabs_f1) [15418744] */
 #chat-messages .fromID-15418744 .badge-box i,
 #chat-messages  .id-15418744 .badge-box i,
-/* Cristiano Malko () [1895733] */
-#chat-messages .fromID-1895733 .badge-box i,
-#chat-messages  .id-1895733 .badge-box i,
+/* Cristiano Malko () [18957332] */
+#chat-messages .fromID-18957332 .badge-box i,
+#chat-messages  .id-18957332 .badge-box i,
 /* Pedro Lucas  () [21378981] */
 #chat-messages .fromID-21378981 .badge-box i,
 #chat-messages  .id-21378981 .badge-box i {
@@ -830,9 +830,9 @@
 /* Gabriela Ferreira(Gabs_f1) [15418744] */
 #chat-messages .fromID-15418744 .badge-box:hover,
 #chat-messages  .id-15418744 .badge-box:hover,
-/* Cristiano Malko () [1895733] */
-#chat-messages .fromID-1895733 .badge-box:hover,
-#chat-messages  .id-1895733 .badge-box:hover,
+/* Cristiano Malko () [18957332] */
+#chat-messages .fromID-18957332 .badge-box:hover,
+#chat-messages  .id-18957332 .badge-box:hover,
 /* Pedro Lucas  () [21378981] */
 #chat-messages .fromID-21378981 .badge-box:hover,
 #chat-messages  .id-21378981 .badge-box:hover {
@@ -1653,9 +1653,9 @@
     background-image: url(https://s.gravatar.com/avatar/268a7c09ad65a495e5005c8dafa9e5c5?s=300);
 }
 
-/* Cristiano Malko () [1895733] */
-#chat-messages .fromID-1895733 .badge-box i,
-#chat-messages .id-1895733 .badge-box i {
+/* Cristiano Malko () [18957332] */
+#chat-messages .fromID-18957332 .badge-box i,
+#chat-messages .id-18957332 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/36bbde2cbf09a45a685b502420ca48cb?s=300);
 }
 
