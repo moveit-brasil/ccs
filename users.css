@@ -408,8 +408,7 @@
 #chat-messages  .id-15418744  .badge-box i,
 /* Cristiano Malko () [1895733] */
 #chat-messages .fromID-1895733  .badge-box i,
-#chat-messages  .id-1895733  .badge-box i 
-{
+#chat-messages  .id-1895733  .badge-box i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -830,8 +829,7 @@
 #chat-messages  .id-15418744  .badge-box:hover,
 /* Cristiano Malko () [1895733] */
 #chat-messages .fromID-1895733  .badge-box:hover,
-#chat-messages  .id-1895733  .badge-box:hover 
-{
+#chat-messages  .id-1895733  .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s
@@ -1484,7 +1482,7 @@
 /* Capusso [17574893] */
 #chat-messages .fromID-17574893 .badge-box i,
 #chat-messages .id-17574893 .badge-box i {
-    background-image: url(https://s.gravatar.com/avatar/66928d364d444968a212f35885ff9d69?s=80);
+    background-image: url(https://s.gravatar.com/avatar/66928d364d444968a212f35885ff9d69?s=300);
 }
 
 /* MuskOTotoso [18332142] */
