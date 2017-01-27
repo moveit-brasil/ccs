@@ -1298,7 +1298,7 @@ background: linear-gradient(rgb(90, 67, 20), rgba(74, 56, 16, 0.952941));
 background: linear-gradient(hsl(266, 80%, 22%), hsl(269, 81%, 13%)) !important;
 border-radius: 8px;
 }
-/* Hover itens de sugestao chat e nivel de chat */
+/* Hover itens de sugestao */
 .dropdown dd .row:hover, .chat-suggestion-item[style='background: rgb(45, 49, 58);'], #search-suggestion .search-suggestion-item.selected, #dialog-restricted-media .row.selected, #dialog-user-role .role-menu .menu ul li:hover {
-    background: linear-gradient(hsla(40, 66%, 31%, 0.64), hsla(40, 70%, 14%, 0.67)) !important;
+    background: linear-gradient(hsl(40, 66%, 31%), hsl(40, 70%, 14%)) !important;
 }
