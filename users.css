@@ -274,9 +274,9 @@
 /* nu.clear [13443778] */
 #chat-messages .fromID-13443778 .badge-box i,
 #chat-messages  .id-13443778 .badge-box i,
-/* -Dashing Love  [13466720] */
-#chat-messages .fromID-13466720 .badge-box i,
-#chat-messages  .id-13466720 .badge-box i,
+/* -Dashing Love  [4925119] */
+#chat-messages .fromID-4925119 .badge-box i,
+#chat-messages  .id-4925119 .badge-box i,
 /* LekinDuTreemBalaＰＪＬ [13478318] */
 #chat-messages .fromID-13478318 .badge-box i,
 #chat-messages  .id-13478318 .badge-box i,
@@ -698,9 +698,9 @@
 /* nu.clear [13443778] */
 #chat-messages .fromID-13443778 .badge-box:hover,
 #chat-messages .id-13443778 .badge-box:hover,
-/* -Dashing Love  [13466720] */
-#chat-messages .fromID-13466720 .badge-box:hover,
-#chat-messages .id-13466720 .badge-box:hover,
+/* -Dashing Love  [4925119] */
+#chat-messages .fromID-4925119 .badge-box:hover,
+#chat-messages .id-4925119 .badge-box:hover,
 /* LekinDuTreemBalaＰＪＬ [13478318] */
 #chat-messages .fromID-13478318 .badge-box:hover,
 #chat-messages .id-13478318 .badge-box:hover,
@@ -1389,9 +1389,9 @@
     background-image: url(https://s.gravatar.com/avatar/711763bdba63425aa9ea55dd313fac14?s=300);
 }
 
-/* -Dashing Love  [13466720] */
-#chat-messages .fromID-13466720 .badge-box i,
-#chat-messages .id-13466720 .badge-box i {
+/* -Dashing Love  [4925119] */
+#chat-messages .fromID-4925119 .badge-box i,
+#chat-messages .id-4925119 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/4bbfa03e75aab7206773fae8b6265bc7?s=300);
 }
 
