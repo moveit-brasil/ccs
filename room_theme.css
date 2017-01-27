@@ -1222,7 +1222,6 @@ color: #ffffff !important;
 }
 .item.community:hover{
     background: linear-gradient(rgba(165, 125, 47, 0.68), rgba(117, 87, 29, 0.39));
-    border-radius: 10px;
 }
 .item.settings:hover{
     background: linear-gradient(rgba(165, 125, 47, 0.68), rgba(117, 87, 29, 0.39));
