@@ -473,6 +473,9 @@ i.icon.icon-room {
 .communities .grid .cell .meta .join:hover {
     background: linear-gradient(hsl(40, 61%, 53%), hsla(42, 62%, 21%, 0.95));
 }
+.grid .cell .bar, .grid .cell .meta {
+background: linear-gradient(hsla(0, 0%, 0%, 0.94), hsla(0, 0%, 0%, 0.94)) !important;
+}
 #chat .welcome {
     color: #c59840;
 }
