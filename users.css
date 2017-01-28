@@ -411,7 +411,10 @@
 #chat-messages  .id-18957332 .badge-box i,
 /* Pedro Lucas  () [21378981] */
 #chat-messages .fromID-21378981 .badge-box i,
-#chat-messages  .id-21378981 .badge-box i {
+#chat-messages  .id-21378981 .badge-box i,
+/* Antonio Carlos de Oliveira  () [4453737] */
+#chat-messages .fromID-4453737 .badge-box i,
+#chat-messages  .id-4453737 .badge-box i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -835,7 +838,10 @@
 #chat-messages  .id-18957332 .badge-box:hover,
 /* Pedro Lucas  () [21378981] */
 #chat-messages .fromID-21378981 .badge-box:hover,
-#chat-messages  .id-21378981 .badge-box:hover {
+#chat-messages  .id-21378981 .badge-box:hover,
+/* Antonio Carlos de Oliveira  () [4453737] */
+#chat-messages .fromID-4453737 .badge-box:hover,
+#chat-messages  .id-4453737 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s
@@ -1663,4 +1669,10 @@
 #chat-messages .fromID-21378981 .badge-box i,
 #chat-messages .id-21378981 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/7846f7fb52b86889a56110daf9e3fd53?s=300);
+}
+
+/* Antonio Carlos de Oliveira  () [4453737] */
+#chat-messages .fromID-4453737 .badge-box i,
+#chat-messages .id-4453737 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/c570ca05b6c105092275d88b5f2f382d?s=300);
 }
