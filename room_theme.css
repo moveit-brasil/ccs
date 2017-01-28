@@ -482,9 +482,6 @@ i.icon.icon-room {
 .grid .cell {
 	background: radial-gradient(hsl(0, 0%, 0%), hsl(40, 53%, 51%)) !important;
 }
-.grid .cell .bar, .grid .cell .meta, #user-friends .row {
-	background: linear-gradient(hsla(0, 0%, 0%, 0.94), hsla(0, 0%, 0%, 0.94)) !important;
-}
 .grid .cell .meta .host {
 	text-align: center !important;
 	top: 6px !important;
