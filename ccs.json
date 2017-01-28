@@ -27,7 +27,7 @@
 		"user": "#007a5a"
 	},
 	"images": {
-		"background": "http://i.imgur.com/Sb3byhA.jpg",
+		"background": "https://moveit-brasil.github.io/ccs/images/background.png",
 		"playback": "https://moveit-brasil.github.io/ccs/images/playback.png",
 		"admin": null,
 		"ambassador": null,
