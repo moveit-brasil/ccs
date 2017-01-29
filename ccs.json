@@ -627,6 +627,7 @@
 		"!link": 0,
 		"!lock": 2,
 		"!lockdown": 2,
+		"!lockdownhost": 4,
 		"!lockguard": 2,
 		"!lockskip": 2,
 		"!locktimer": 3,
