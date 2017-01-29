@@ -414,7 +414,10 @@
 #chat-messages  .id-21378981 .badge-box i,
 /* Antonio Carlos de Oliveira  () [4453737] */
 #chat-messages .fromID-4453737 .badge-box i,
-#chat-messages  .id-4453737 .badge-box i {
+#chat-messages  .id-4453737 .badge-box i,
+/* Gaby_de_MottaS2 [23894284] */
+#chat-messages .fromID-23894284 .badge-box i,
+#chat-messages  .id-23894284 .badge-box i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -841,7 +844,10 @@
 #chat-messages  .id-21378981 .badge-box:hover,
 /* Antonio Carlos de Oliveira  () [4453737] */
 #chat-messages .fromID-4453737 .badge-box:hover,
-#chat-messages  .id-4453737 .badge-box:hover {
+#chat-messages  .id-4453737 .badge-box:hover,
+/* Gaby_de_MottaS2 [23894284] */
+#chat-messages .fromID-23894284 .badge-box:hover,
+#chat-messages  .id-23894284 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s
@@ -1675,4 +1681,10 @@
 #chat-messages .fromID-4453737 .badge-box i,
 #chat-messages .id-4453737 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/c570ca05b6c105092275d88b5f2f382d?s=300);
+}
+
+/* Gaby_de_MottaS2 [23894284] */
+#chat-messages .fromID-23894284 .badge-box i,
+#chat-messages .id-23894284 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/943edc2388e3c07c466196b55df091d0?s=300);
 }
