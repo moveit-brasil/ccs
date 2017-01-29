@@ -244,9 +244,6 @@ i.icon.icon-room {
     height: 0px;
     background-size: 65%;
 }
-/*.from.staff {
-    text-shadow: 0px 0px 1px #ac76ff;
-}*/
 
 #chat .emote .text {
     font-family: 'Ubuntu', sans-serif;
@@ -302,8 +299,6 @@ i.icon.icon-room {
 .votes-rs {
     background: rgba(0, 0, 0, 0.6) !important;
 }
-/*.icon {background: url('http://i.imgur.com/0qIMZLo.png?1');
-}*/
 /* cabeçalho alternativo inicio*/
 
 /* Text settings */
@@ -398,21 +393,6 @@ i.icon.icon-room {
 }
 #now-playing-time i {
     display: none !important;
-}
-
-/* cabeçalho alternativo fim*/
-/*
-.badge-box.clickable {
-    position: absolute;
-    left: -9999px;
-}
-/*http://i.imgur.com/Ht8aNc5.png?1 -- emblema molde */
-/*shadow
-.cm.message.id-4080795 {
-    background-image: url(https://s.gravatar.com/avatar/6b339b1d098965c7496e3b7e58573962?s=80);
-    background-repeat: no-repeat;
-    background-position: 5px 5px;
-    background-size: 35px;
 }
 
 /*Barra de XP*/
@@ -773,7 +753,9 @@ background: linear-gradient(hsla(0, 0%, 0%, 0.94), hsla(0, 0%, 0%, 0.94)) !impor
 #user-store .misc .grid .cell .title-bar {
     background: none;
 }
-
+#user-store .misc .grid .cell .title-bar span {
+    font-size: 15px;
+}
 /* BG Avatar perfil*/
 #user-menu .avatar {
     background: linear-gradient(to bottom, #c7993e 0, #58421e 56%, #332919 73%, #25211c 100%);
@@ -786,9 +768,14 @@ background: linear-gradient(hsla(0, 0%, 0%, 0.94), hsla(0, 0%, 0%, 0.94)) !impor
 .subscribe-button:hover {
     background: rgba(204, 155, 56, 0.25) !important;
 }
-.user-content.profile .meta .blurb .box,
-.user-content.profile .meta .blurb input {
+.user-content.profile .meta .blurb .box {
     background: hsla(220, 0%, 5%, 0.3) !important;
+}
+.user-content.profile .meta .blurb input {
+    -webkit-box-shadow: inset 0 0 0 1px #b98e3a;
+    -moz-box-shadow: inset 0 0 0 1px #b98e3a;
+    box-shadow: inset 0 0 0 1px #b98e3a;
+    border-radius: 8px;
 }
 .experience .xp .bar {
     background: hsla(220, 0%, 5%, 0.7) !important;
@@ -1336,5 +1323,5 @@ border-radius: 8px;
 }
 /* Hover itens de sugestao */
 .dropdown dd .row:hover, .chat-suggestion-item[style='background: rgb(45, 49, 58);'], #search-suggestion .search-suggestion-item.selected, #dialog-restricted-media .row.selected, #dialog-user-role .role-menu .menu ul li:hover {
-    background: linear-gradient(hsl(40, 66%, 31%), hsl(40, 70%, 14%)) !important;
+    background: linear-gradient(hsl(40, 55%, 48%), hsl(40, 64%, 23%)) !important;
 }
