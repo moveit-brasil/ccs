@@ -420,7 +420,10 @@
 #chat-messages  .id-23894284 .badge-box i,
 /* LisandraLisy [23648920] */
 #chat-messages .fromID-23648920 .badge-box i,
-#chat-messages  .id-23648920 .badge-box i {
+#chat-messages  .id-23648920 .badge-box i,
+/* SρєαR [15473899] */
+#chat-messages .fromID-15473899 .badge-box i,
+#chat-messages  .id-15473899 .badge-box i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -853,7 +856,10 @@
 #chat-messages  .id-23894284 .badge-box:hover,
 /* LisandraLisy [23648920] */
 #chat-messages .fromID-23648920 .badge-box:hover,
-#chat-messages  .id-23648920 .badge-box:hover {
+#chat-messages  .id-23648920 .badge-box:hover,
+/* SρєαR [15473899] */
+#chat-messages .fromID-15473899 .badge-box:hover,
+#chat-messages  .id-15473899 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s
@@ -1699,4 +1705,10 @@
 #chat-messages .fromID-23648920 .badge-box i,
 #chat-messages .id-23648920 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/e1408cc5a6a2bb31e681d308d6ec839a?s=300);
+}
+
+/* SρєαR [15473899] */
+#chat-messages .fromID-15473899 .badge-box i,
+#chat-messages .id-15473899 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/d27f3187e0cfb048811070a2697c179d?s=300);
 }
