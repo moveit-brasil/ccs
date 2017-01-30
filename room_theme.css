@@ -1,50 +1,31 @@
 @import url("https://moveit-brasil.github.io/ccs/style.css");
 @import url("https://moveit-brasil.github.io/ccs/users.css");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:500");
-
+/* Icones */
 .icon {
-    background-image: url("https://moveit-brasil.github.io/ccs/images/icons.png")
-}
-
+    background-image: url("https://moveit-brasil.github.io/ccs/images/icons.png")}
+/* ------------------------------------------------------------------ */
 /* MoveItBot */
 #chat [data-cid^="5394376-"] span.un.clickable {
-    color: rgba(190, 145, 19, 1) !important;
-}
-
+    color: rgba(190, 145, 19, 1) !important;}
 #chat [data-cid^="5394376-"].emote {
     background: rgba(51, 46, 48, 0.58) !important;
-    border-left: rgba(134, 114, 39, 0.49) 3px solid !important;
-}
-
+    border-left: rgba(134, 114, 39, 0.49) 3px solid !important;}
 #chat [data-cid^="5394376-"].emote .timestamp {
-    color: #A993C7 !important;
-}
-
+    color: #A993C7 !important;}
 #chat [data-cid^="5394376-"].emote .text {
-    color: #f7f7f7 !important;
-}
-
+    color: #f7f7f7 !important;}
 #chat [data-cid^="5394376-"] .icon,
 #chat .id-5394376 .icon {
-    display:none !important;
-}
-
-/* cor nome usuario cinza */
-#chat .from .un {
-    color: #007a5a;
-}
-
+    display:none !important;}
+/* ------------------------------------------------------------------ */
 /* preview video */
 .dialog {
-    background: rgba(0, 0, 0, 0.42);
-}
+    background: rgba(0, 0, 0, 0.42);}
 #dialog-preview .dialog-frame .button.submit {
-    color: #fff;
-}
+    color: #fff;}
 #dialog-preview .dialog-frame .button.submit {
-    background: 0 !important;
-}
-
+    background: 0 !important;}
 #chat .message:nth-child(2n+1),
 #chat .mention:nth-child(2n+1),
 #chat .skip:nth-child(2n+1),
@@ -52,213 +33,255 @@
 #chat .emote:nth-child(2n+1),
 #chat .update:nth-child(2n+1),
 #chat .welcome:nth-child(2n+1) {
-    overflow: hidden;
-}
+    overflow: hidden;}
 #chat [data-cid^="5394376-"].emote {
-    overflow: hidden;
-}
-/* fim css zoom nas fotos */
-
+    overflow: hidden;}
+/* ------------------------------------------------------------------ */
 /* Interface */
 #footer-user .info {
-    background: rgba(0, 0, 0, 0.70);
-}
+    background: rgba(0, 0, 0, 0.70);}
 #dashboard {
-    background: rgba(0, 0, 0, 0.5) !important;
-}
+    background: rgba(0, 0, 0, 0.5) !important;}
 .tab-menu button.selected {
-    background: linear-gradient(hsl(40, 61%, 54%), hsl(40, 59%, 31%)) !important;
-}
+    background: linear-gradient(hsl(40, 61%, 54%), hsl(40, 59%, 31%)) !important;}
 .tab-menu button:hover {
-    background: linear-gradient(hsla(40, 53%, 36%, 1), hsl(40, 59%, 31%));
-}
+    background: linear-gradient(hsla(40, 53%, 36%, 1), hsl(40, 59%, 31%));}
 .tab-menu button {
     background: rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-}
+    border-radius: 15px;}
 #rcs-progress-container {
-    background-color: #453706 !important;
-}
+    background-color: #453706 !important;}
 #rcs-progress-container .bar {
-    background: linear-gradient(hsl(40, 65%, 56%), hsla(42, 62%, 30%, 0.95)) !important;
-}
-
+    background: linear-gradient(hsl(40, 65%, 56%), hsla(42, 62%, 30%, 0.95)) !important;}
+#user-menu .item.selected {
+    background: linear-gradient(hsl(40, 61%, 54%), hsl(40, 59%, 31%));}
+#playlist-menu .menu .row .count {
+    color: #d09d39;}
+#user-view {
+    background: rgba(17, 19, 23, 0.8) !important;}
+#user-menu {
+    background: rgba(28, 31, 37, 0) !important;}
+#rs-skip-button {
+    background: rgba(28, 31, 37, 0) !important;}
+#history-button {
+    background: rgba(28, 31, 37, 0) !important;}
+#dj-button {
+    background: rgba(34, 34, 36, 0.59);
+    border-radius: 8px;}
+#vote .top {
+    background: rgba(34, 34, 36, 0.4) !important;}
+#room .app-right {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.70) 0, rgba(0, 0, 0, 1) 100%);}
+#room-host,
+#room-name {
+    left: 105px;}
+#room-bar .icon-room {
+    top: 8px;
+    left: 10px;}
+i.icon.icon-room {
+    width: 130px;
+    height: 50px;}
+.icon-room {
+    background: url(http://i.imgur.com/KkMZsiH.png?1) no-repeat;
+    width: 0px;
+    height: 0px;
+    background-size: 65%;}
+.app-header {
+    background: rgba(28, 31, 37, 0.59);}
+/* ------------------------------------------------------------------ */
 /* Chat Botões cima */
 .header-panel-button.selected {
-    background-color: rgba(204, 155, 56, 0.25)!important;
-}
-
+    background-color: rgba(204, 155, 56, 0.25)!important;}
+/* ------------------------------------------------------------------ */
 /* Botões direita */
 #footer-user .buttons .button.store:hover {
-    background: rgba(206, 25, 55, 0.2);
-}
+    background: rgba(206, 25, 55, 0.2);}
 #footer-user .buttons .button.inventory:hover {
-    box-shadow: none
-}
+    box-shadow: none}
 #footer-user .buttons .button:hover {
-    background: linear-gradient(to bottom, rgba(98, 75, 30, 0.2) 0, rgba(125, 96, 38, 0.5) 100%) !important;
-}
-
-/* ------------------------------------------- */
+    background: linear-gradient(to bottom, rgba(98, 75, 30, 0.2) 0, rgba(125, 96, 38, 0.5) 100%) !important;}
+/* ------------------------------------------------------------------ */
 /* Fundo top e bottom */
-/* ------------------------------------------- */
-
 /* Área texto */
 #chat-input {
     border-radius: 10px;
-    background: rgba(111, 101, 101, 0.1) !important;
-}
-/* ------------------------------------------- */
-
+    background: rgba(111, 101, 101, 0.1) !important;}
+/* ------------------------------------------------------------------ */
 /* Icones */
 .icon-radiant-clearchat {
     position: absolute;
     width: 30px;
     height: 30px;
-    background: url('http://i.imgur.com/xPeOfYF.png') !important;
-}
+    background: url('http://i.imgur.com/xPeOfYF.png') !important;}
 .icon-radiant-rcsclearchat {
-background: url('http://i.imgur.com/K7RWjjp.png') !important;
-}
+background: url('http://i.imgur.com/K7RWjjp.png') !important;}
 .icon-check-purple {
     background: url('http://i.imgur.com/uZwTcaU.png');
     background-repeat: no-repeat;
-    background-position: 5px;
-}
+    background-position: 5px;}
 .icon-next-track {
     background: url('http://i.imgur.com/v5T4x0V.png');
     background-repeat: no-repeat;
-    background-position: 3px;
-}
+    background-position: 3px;}
 .icon-site-logo {
-    background: url('http://i.imgur.com/KwXp9S0.png') no-repeat;
-}
+    background: url('http://i.imgur.com/KwXp9S0.png') no-repeat;}
 /*.icon-grab {
 background: url('http://i.imgur.com/cAkFbAh.png') no-repeat;
 background-position: 0px;}*/
 
-/* ------------------------------------------- */
+/* ------------------------------------------------------------------ */
 #footer .bar-button .section .chevron:before {
-    background: #c59840;
-}
+    background: #c59840;}
 #footer .bar-button .section .chevron:after {
-    background: #c59840;
-}
-/* ------------------------------------------- */
-
+    background: #c59840;}
+/* ------------------------------------------------------------------ */
 /* Botão DJ */
-
 #dj-button {
     border-radius: 50px 10px 10px 50px;
-    background: #0b0d0f;
-}
-/* ------------------------------------------- */
-
+    background: #0b0d0f;}
+#woot .bottom,
+#woot.selected {
+    background: #25b961 !important;}
+#grab .bottom,
+#grab.selected {
+    background: #000000 !important;}
+#meh .bottom,
+#meh.selected {
+    background: #ce1937 !important;}
+.votes-rs .title.woot {
+    background: #25b961 !important;}
+.votes-rs .title.grab {
+    background: #000000 !important;}
+.votes-rs .title.meh {
+    background: #ce1937 !important;}
+.votes-rs {
+    background: rgba(0, 0, 0, 0.6) !important;}
+/* ------------------------------------------------------------------ */
 /* Botão Playlist */
 #playlist-button {
-    background: linear-gradient(hsl(40, 61%, 54%), hsl(40, 59%, 31%)) !important;
-}
-/* ------------------------------------------- */
-
+    background: linear-gradient(hsl(40, 61%, 54%), hsl(40, 59%, 31%)) !important;}
+/* ------------------------------------------------------------------ */
 /* Configurações */
-
 /* Fundo */
-
 #user-view,
 #waitlist .list .sortable-placeholder {
-    background: #21070b;
-}
-/* ------------------------------------------- */
-
+    background: #21070b;}
+/* ------------------------------------------------------------------ */
 #footer-user .back {
-    background: linear-gradient(hsl(40, 61%, 53%), hsla(42, 62%, 21%, 0.95));
-}
-/* ------------------------------------------- */
-
+    background: linear-gradient(hsl(40, 61%, 53%), hsla(42, 62%, 21%, 0.95));}
+/* ------------------------------------------------------------------ */
 /* Playlist */
 .icon-check-circle {
-    background: url('http://i.imgur.com/BBNZUIN.png');
-}
+    background: url('http://i.imgur.com/BBNZUIN.png');}
 #playlist-activate-button span {
-    color: #d09d39;
-}
+    color: #d09d39;}
 .media-list .row.selected {
-    background: rgba(150, 111, 36, 0.70) !important;
-}
+    background: rgba(150, 111, 36, 0.70) !important;}
 #playlist-menu .menu .row.selected {
-    background: #7b5e22;
-}
+    background: #7b5e22;}
 #playlist-activate-button {
-    background: rgba(206, 25, 55, 0.3);
-    ;
-}
+    background: rgba(206, 25, 55, 0.3);}
 
-/*----------------fim css feluz -----------------*/
+/* -----------------------fim css feluz ---------------------------- */
+/* Emojis maiores */
 #chat span.emoji-sizer {
     width: 19px !important;
-    height: 19px !important;
-}
-#user-menu .item.selected {
-    background: linear-gradient(hsl(40, 61%, 54%), hsl(40, 59%, 31%));
-}
-#playlist-menu .menu .row .count {
-    color: #d09d39;
-}
-#user-view {
-    background: rgba(17, 19, 23, 0.8) !important;
-}
-#user-menu {
-    background: rgba(28, 31, 37, 0) !important;
-}
-#rs-skip-button {
-    background: rgba(28, 31, 37, 0) !important;
-}
-#history-button {
-    background: rgba(28, 31, 37, 0) !important;
-}
-#dj-button {
-    background: rgba(34, 34, 36, 0.59);
-    border-radius: 8px;
-}
-#vote .top {
-    background: rgba(34, 34, 36, 0.4) !important;
-}
-#room .app-right {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.70) 0, rgba(0, 0, 0, 1) 100%);
-}
+    height: 19px !important;}
+/* ------------------------------------------------------------------ */
+/* cabeçalho alternativo inicio*/
+/* Text settings */
 #room-host,
-#room-name {
-    left: 105px;
-}
-#room-bar .icon-room {
-    top: 8px;
-    left: 10px;
-}
-i.icon.icon-room {
-    width: 130px;
-    height: 50px;
-}
-.icon-room {
-    background: url(http://i.imgur.com/KkMZsiH.png?1) no-repeat;
-    width: 0px;
-    height: 0px;
-    background-size: 65%;
-}
-
+#now-playing-dj {
+    color: #808691 !important;}
+#room-bar *,
+#now-playing-bar * {
+    font-weight: lighter !important;}
+#room-bar span,
+#now-playing-bar span,
+#now-playing-time span,
+#volume span,
+#rcs-time-elapsed {
+    font-size: 20px !important;}
+#room-bar:hover > #room-name,
+#room-bar > #room-host,
+#now-playing-bar:hover > #now-playing-media,
+#now-playing-bar > #now-playing-dj {
+    opacity: 0 !important;
+    transition: opacity 0.25s !important;}
+#room-bar > #room-name,
+#room-bar:hover > #room-host,
+#now-playing-bar > #now-playing-media,
+#now-playing-bar:hover > #now-playing-dj {
+    opacity: 1 !important;
+    transition: opacity 0.25s !important;
+    transition-delay: 0.25s !important;}
+/* ------------------------------------------------------------------ */
+/* Positioning and sizing */
+/* Z-position */
+#volume span,
+#now-playing-time {
+    z-index: 11 !important;}
+#volume .button {
+    z-index: 12 !important;}
+/* ------------------------------------------------------------------ */
+/* Position and sizing */
+#room-bar > #room-name,
+#now-playing-bar > #now-playing-media {
+    margin-top: 7px !important;}
+#room-bar > #room-host,
+#now-playing-bar > #now-playing-dj {
+    margin-top: -15px !important;}
+#now-playing-time {
+    margin-top: -2px !important;}
+#volume {
+    margin-top: -26px !important;
+    margin-right: 58px !important;}
+#volume .button {
+    margin-top: 2px !important;
+    right: 0px !important;
+    width: 48px !important;
+    height: 27px !important;}
+/* ------------------------------------------------------------------ */
+/* + Always show volume */
+#volume .slider {
+    display: block !important;
+    top: 26px !important;
+    right: -62px !important;}
+/* ------------------------------------------------------------------ */
+/* Colour settings for overlap */
+#volume .slider {
+    background-color: rgba(28, 31, 37, 0.10) !important;
+    box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.10), 0px 18px 0px 6px rgba(28, 31, 37, 0.10) !important;}
+/* ------------------------------------------------------------------ */
+/* Disappearing elapsing */
+.elapsing {
+    opacity: 0.0 !important;
+    transition: opacity 1.0s !important;}
+/* ------------------------------------------------------------------ */
+/* Disappear */
+#now-playing-bar >:not(#history-button):not(#rs-skip-button) i,
+.dark-label {
+    display: none !important;}
+#now-playing-time i {
+    display: none !important;}
+/* ------------------------------------------------------------------ */
+/*Barra de XP*/
+.experience .xp .bar .progress {
+    background: linear-gradient(hsl(40, 61%, 54%), hsl(40, 59%, 31%));}
+#footer-user .info .bar .progress {
+    background: rgba(197, 152, 64, 1);}
+/* -------------------------- CHAT ---------------------------------- */
 #chat .emote .text {
-    font-family: 'Ubuntu', sans-serif;
-}
+    font-family: 'Ubuntu', sans-serif;}
 #chat-messages .text {
     font-family: 'Ubuntu', sans-serif;
     font-size: 13px;
-    line-height: 20px;
-}
+    line-height: 20px;}
 #chat .from {
     position: relative;
     margin-bottom: 3px;
     font-size: 13px;
-    font-family: 'Ubuntu', sans-serif;
-}
+    font-family: 'Ubuntu', sans-serif;}
 #chat-input-field {
     position: absolute;
     top: 7px;
@@ -270,139 +293,81 @@ i.icon.icon-room {
     background: 0 0;
     color: #eee;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 13px;
-}
-.app-header {
-    background: rgba(28, 31, 37, 0.59);
-}
-#woot .bottom,
-#woot.selected {
-    background: #25b961 !important;
-}
-#grab .bottom,
-#grab.selected {
-    background: #000000 !important;
-}
-#meh .bottom,
-#meh.selected {
-    background: #ce1937 !important;
-}
-.votes-rs .title.woot {
-    background: #25b961 !important;
-}
-.votes-rs .title.grab {
-    background: #000000 !important;
-}
-.votes-rs .title.meh {
-    background: #ce1937 !important;
-}
-.votes-rs {
-    background: rgba(0, 0, 0, 0.6) !important;
-}
-/* cabeçalho alternativo inicio*/
-
-/* Text settings */
-#room-host,
-#now-playing-dj {
-    color: #808691 !important;
-}
-#room-bar *,
-#now-playing-bar * {
-    font-weight: lighter !important;
-}
-#room-bar span,
-#now-playing-bar span,
-#now-playing-time span,
-#volume span,
-#rcs-time-elapsed {
-    font-size: 20px !important;
-}
-#room-bar:hover > #room-name,
-#room-bar > #room-host,
-#now-playing-bar:hover > #now-playing-media,
-#now-playing-bar > #now-playing-dj {
-    opacity: 0 !important;
-    transition: opacity 0.25s !important;
-}
-#room-bar > #room-name,
-#room-bar:hover > #room-host,
-#now-playing-bar > #now-playing-media,
-#now-playing-bar:hover > #now-playing-dj {
-    opacity: 1 !important;
-    transition: opacity 0.25s !important;
-    transition-delay: 0.25s !important;
-}
-
-/* Positioning and sizing */
-
-/* Z-position */
-#volume span,
-#now-playing-time {
-    z-index: 11 !important;
-}
-#volume .button {
-    z-index: 12 !important;
-}
-
-/* Position and sizing */
-#room-bar > #room-name,
-#now-playing-bar > #now-playing-media {
-    margin-top: 7px !important;
-}
-#room-bar > #room-host,
-#now-playing-bar > #now-playing-dj {
-    margin-top: -15px !important;
-}
-#now-playing-time {
-    margin-top: -2px !important;
-}
-#volume {
-    margin-top: -26px !important;
-    margin-right: 58px !important;
-}
-#volume .button {
-    margin-top: 2px !important;
-    right: 0px !important;
-    width: 48px !important;
-    height: 27px !important;
-}
-
-/* + Always show volume */
-#volume .slider {
-    display: block !important;
-    top: 26px !important;
-    right: -62px !important;
-}
-
-/* Colour settings for overlap */
-#volume .slider {
-    background-color: rgba(28, 31, 37, 0.10) !important;
-    box-shadow: 0px -19px 0px 6px rgba(28, 31, 37, 0.10), 0px 18px 0px 6px rgba(28, 31, 37, 0.10) !important;
-}
-
-/* Disappearing elapsing */
-.elapsing {
-    opacity: 0.0 !important;
-    transition: opacity 1.0s !important;
-}
-
-/* Disappear */
-#now-playing-bar >:not(#history-button):not(#rs-skip-button) i,
-.dark-label {
-    display: none !important;
-}
-#now-playing-time i {
-    display: none !important;
-}
-
-/*Barra de XP*/
-.experience .xp .bar .progress {
-    background: linear-gradient(hsl(40, 61%, 54%), hsl(40, 59%, 31%));
-}
-#footer-user .info .bar .progress {
-    background: rgba(197, 152, 64, 1);
-}
-
+    font-size: 13px;}
+/* ------------------------------------------------------------------ */
+/* Menu lista Ban/Mute/Ignorados */
+#user-lists .list.bans .user:hover {
+    background: linear-gradient(to right, rgba(255, 118, 118, 0) 0, rgba(255, 0, 0, 0.27) 100%) !important;}
+#user-lists .list.mutes .user:hover {
+    background: linear-gradient(to right, rgba(255, 118, 118, 0) 0, rgba(255, 72, 0, 0.27) 100%) !important;}
+#user-lists .list.ignored .user:hover {
+    background: linear-gradient(to right, rgba(255, 118, 118, 0) 0, rgba(255, 191, 0, 0.27) 100%) !important;}
+/* ------------------------------------------------------------------ */
+/* BG Chat sugestão */
+#chat-suggestion {
+    background: rgba(2, 1, 1, 0.9);}
+/* ------------------------------------------------------------------ */
+/* Botoes deletar/Esconder mensagem chat */
+#chat .delete-button { 
+    background: linear-gradient(hsl(40, 66%, 20%), hsl(40, 67%, 7%));
+    border-radius: 8px;} 
+#chat .delete-button:hover { 
+   background: linear-gradient(hsl(0, 77%, 30%), hsl(0, 80%, 19%));
+    border-radius: 8px;}
+.radiantimg-delete { 
+background: linear-gradient(hsl(266, 80%, 22%), hsl(269, 81%, 13%)) !important;
+border-radius: 8px;}
+/* ------------------------------------------------------------------ */
+/* CORES CHAT */
+/* HOST */
+#user-lists .group.host {
+    color: #DB182E;
+    top: 1px;}
+.icon-chat-host + span,
+#user-lists .group.host ~ .user span,
+#dialog-user-role .role-menu .menu ul .host span {
+    color: #DB182E !important;}
+.icon-chat-cohost + span,
+#user-lists .group.cohost ~ .user span,
+#dialog-user-role .role-menu .menu ul .cohost span {
+    color: #DB182E !important;}
+#user-lists .group {
+    border: none !important;
+    box-shadow: 0 0 1px 1px;}
+/* ------------------------------------------------------------------ */
+/* COORDENADOR */
+#user-lists .group.manager {
+    color: #BE9113;}
+#user-lists .group.manager ~ .user span,
+#dialog-user-role .role-menu .menu ul .manager span {
+    color: #BE9113 !important;}
+.icon-chat-manager + span,
+#user-lists .group.manager ~ .user span,
+#dialog-user-role .role-menu .menu ul .manager span {
+    color: #BE9113 !important;}
+/* ------------------------------------------------------------------ */
+/* SEGURANÇA */
+#user-lists .group.bouncer {
+    color: #05ABE4;}
+.icon-chat-bouncer + span,
+#user-lists .group.bouncer ~ .user span,
+#dialog-user-role .role-menu .menu ul .bouncer span {
+    color: #05ABE4 !important;}
+/* ------------------------------------------------------------------ */
+/* DJ RESIDENT */
+#user-lists .group.dj {
+    color: #7936E8;}
+.icon-chat-dj + span,
+#user-lists .group.dj ~ .user span,
+#dialog-user-role .role-menu .menu ul .dj span {
+    color: #7936E8 !important;}
+/* ------------------------------------------------------------------ */
+/* Hover Link's */
+#room-settings a:hover,
+#chat a:hover {
+    color: hsl(200, 100%, 55%) !important;
+    text-shadow: 0 0 5px;}
+/* ------------------------------------------------------------------ */
 /*Lista das salas*/
 .communities .grid .cell .bar {
     position: absolute;
@@ -411,8 +376,7 @@ i.icon.icon-room {
     z-index: 3;
     width: 100%;
     height: 43px;
-    background: rgba(0, 0, 0, 0.5);
-}
+    background: rgba(0, 0, 0, 0.5);}
 .communities .grid .cell {
     position: relative;
     float: left;
@@ -421,21 +385,18 @@ i.icon.icon-room {
     width: 250px;
     height: 300px;
     background: rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-}
+    cursor: pointer;}
 .communities .grid .cell:hover>.meta {
     margin-top: 43px;
     height: 257px;
     background: rgba(40, 40, 40, 0.7);
-    transition: all .15s ease-out;
-}
+    transition: all .15s ease-out;}
 .communities .grid .cell .favorite {
     top: 0;
     right: 0;
     width: 43px;
     height: 43px;
-    background: rgba(197, 152, 64, 1);
-}
+    background: rgba(197, 152, 64, 1);}
 .communities .grid .cell .meta {
     position: relative;
     z-index: 2;
@@ -443,257 +404,163 @@ i.icon.icon-room {
     width: 100%;
     height: 90px;
     background: rgba(0, 0, 0, 0.5);
-    transition: all .25s ease-in;
-}
+    transition: all .25s ease-in;}
 .communities .grid .cell .meta .join {
     border-radius: 10px;
     border: 1px solid rgba(196, 152, 64, 0.63);
-    background: rgb(0, 0, 0);
-}
+    background: rgb(0, 0, 0);}
 .communities .grid .cell .meta .join:hover {
-    background: linear-gradient(hsl(40, 61%, 53%), hsla(42, 62%, 21%, 0.95));
-}
+    background: linear-gradient(hsl(40, 61%, 53%), hsla(42, 62%, 21%, 0.95));}
 .grid .cell .bar, .grid .cell .meta {
-background: linear-gradient(hsla(0, 0%, 0%, 0.94), hsla(0, 0%, 0%, 0.94)) !important;
-}
+background: linear-gradient(hsla(0, 0%, 0%, 0.94), hsla(0, 0%, 0%, 0.94)) !important;}
 #chat .welcome {
-    color: #c59840;
-}
+    color: #c59840;}
 .grid .cell .top .expires span {
-	color: hsl(30,100%,50%) !important;
-}
+	color: hsl(30,100%,50%) !important;}
 .grid .cell {
-	background: radial-gradient(hsl(0, 0%, 0%), hsl(40, 53%, 51%)) !important;
-}
+	background: radial-gradient(hsl(0, 0%, 0%), hsl(40, 53%, 51%)) !important;}
 .grid .cell .meta .host {
 	text-align: center !important;
 	top: 6px !important;
-	color: #eee !important;
-}
+	color: #eee !important;}
+/* ------------------------------------------------------------------ */
 /* Bordas caixas de dialogo */
-#search-bar {
-    -webkit-box-shadow: inset 0 0 0 1px #3a2f18;
-    -moz-box-shadow: inset 0 0 0 1px #3a2f18;
-    box-shadow: inset 0 0 0 1px #3a2f18;
-}
-#filter-bar {
-    -webkit-box-shadow: inset 0 0 0 1px #3a2f18;
-    -moz-box-shadow: inset 0 0 0 1px #3a2f18;
-    box-shadow: inset 0 0 0 1px #3a2f18;
-}
-.app-right .friends .list-header .input-background {
-    -webkit-box-shadow: inset 0 0 0 1px #3a2f18;
-    -moz-box-shadow: inset 0 0 0 1px #3a2f18;
-    box-shadow: inset 0 0 0 1px #3a2f18;
-}
-#user-lists .list-header .input-background {
-    -webkit-box-shadow: inset 0 0 0 1px #3a2f18;
-    -moz-box-shadow: inset 0 0 0 1px #3a2f18;
-    box-shadow: inset 0 0 0 1px #3a2f18;
-}
-#dashboard .search {
-    -webkit-box-shadow: inset 0 0 0 1px #3a2f18;
-    -moz-box-shadow: inset 0 0 0 1px #3a2f18;
-    box-shadow: inset 0 0 0 1px #3a2f18;
-}
+#search-bar,
+.app-right .friends .list-header .input-background,
+#user-lists .list-header .input-background,
+#dashboard .search,
+#rcs-menu .search,
+#filter-bar,
 #user-friends .search {
-    -webkit-box-shadow: inset 0 0 0 1px #3a2f18;
-    -moz-box-shadow: inset 0 0 0 1px #3a2f18;
-    box-shadow: inset 0 0 0 1px #3a2f18;
-}
-#rcs-menu .search {
     -webkit-box-shadow: inset 0 0 0 1px #3a2f18 !important;
     -moz-box-shadow: inset 0 0 0 1px #3a2f18 !important;
-    box-shadow: inset 0 0 0 1px #3a2f18 !important;
-}
-
+    box-shadow: inset 0 0 0 1px #3a2f18 !important;}
+/* ------------------------------------------------------------------ */
+/* Bordas aredondas caixas de dialogo */
+#search-bar,
+#filter-bar,
+#user-lists .list-header .input-background,
+.app-right .friends .list-header .input-background,
+#rcs-menu .search,
+#dashboard .search,
+#user-friends .search,
+#search-menu {
+    border-radius: 10px;}
+/* ------------------------------------------------------------------ */
+/* Borda arredondada */
+.communities .grid .cell .favorite {
+    border-radius: 3px;}
+#footer-user .info .bar .progress,
+#footer-user .info .meta div.bar,
+#user-friends .list .row .buttons button {
+    border-radius: 5px;}
+#playlist-button,
+.app-right .friends .list-header .input-background {
+    border-radius: 7px;}
+#user-menu .item,
+#user-menu .avatar,
+.experience .xp .bar .progress,
+.user-content.profile .notifications .row,
+.dropdown dt,
+.dropdown,
+#user-friends .search {
+    border-radius: 10px;}
+.communities .grid .cell {
+    border-radius: 15px;}
+.user-content .grid .cell,
+.user-content.communities .grid .cell {
+    background: hsla(220, 0%, 5%, 0.3) !important;
+    border-radius: 15px;}
+/* ------------------------------------------------------------------ */
+/* Menu selecionar mecanismo de pesquisa  */
+#search-menu .bar-divider {
+    -webkit-box-shadow: inset 0 0 0 1px #534322;
+    -moz-box-shadow: inset 0 0 0 1px #534322;
+    box-shadow: inset 0 0 0 1px #534322;}
+#search-menu li.last {
+    border-bottom: 1px solid #534322;}
+#search-menu li {
+    border-top: 1px solid #1c1f25;
+    border-left: 1px solid #534322;
+    border-right: 1px solid #534322;}
+#search-menu:hover {
+    border-right: 1px solid #534322;}
+#search-menu li:hover {
+    background: rgba(150, 111, 36, 0.91);}
+/* ------------------------------------------------------------------ */
 /* Bordas caixas de dialogo (Selecionada) */
-.app-right .friends .list-header .input-background.focused {
-    -webkit-box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
-    box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70)) !important;
-}
-#chat-input.focused {
-    -webkit-box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
-    box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70)) !important;
-}
-.search.focused {
-    -webkit-box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
-    box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70)) !important;
-}
-#search-bar.focused {
-    -webkit-box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
-    box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70)) !important;
-}
-#filter-bar.focused {
-    -webkit-box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
-    box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70)) !important;
-}
-#user-lists .list-header .input-background.focused {
-    -webkit-box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
-    box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70)) !important;
-}
-#rcs-menu .search.focused {
-    -webkit-box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
-    box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70)) !important;
-}
-.dialog-input-background.focused {
-    -webkit-box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
-    box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70)) !important;
-}
+.app-right .friends .list-header .input-background.focused,
+#chat-input.focused,
+.search.focused,
+#search-bar.focused,
+#filter-bar.focused,
+#user-lists .list-header .input-background.focused,
+#rcs-menu .search.focused,
+.dialog-input-background.focused,
 .youtube-input.focused {
     -webkit-box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70) !important;
-    box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70)) !important;
-}
-
+    box-shadow: inset 0 0 0 1px rgba(150, 111, 36, 0.70)) !important;}
+/* ------------------------------------------------------------------ */
 /*Menu info user*/
 #user-rollover {
-    background: rgba(0, 0, 0, 0.5);
-}
+    background: rgba(0, 0, 0, 0.5);}
 #user-rollover .info {
-    background: none;
-}
+    background: none;}
 #user-rollover .actions .action:hover {
-    background: rgba(196, 152, 64, 0.5);
-}
-#user-rollover .actions .giftsub {
-    width: 100%;
-    -webkit-box-shadow: inset 0 -2px 0 -1px hsla(40, 53%, 51%, 0.65);
-    -moz-box-shadow: inset 0 -2px 0 -1px hsla(40, 53%, 51%, 0.65);
-    box-shadow: inset 0 -2px 0 -1px hsla(40, 53%, 51%, 0.65);
-}
+    background: rgba(196, 152, 64, 0.5);}
+#user-rollover .actions .giftsub,
 #user-rollover .actions .skip {
-    width: 100%;
     -webkit-box-shadow: inset 0 -2px 0 -1px hsla(40, 53%, 51%, 0.65);
     -moz-box-shadow: inset 0 -2px 0 -1px hsla(40, 53%, 51%, 0.65);
-    box-shadow: inset 0 -2px 0 -1px hsla(40, 53%, 51%, 0.65);
-}
+    box-shadow: inset 0 -2px 0 -1px hsla(40, 53%, 51%, 0.65);}
 #user-rollover .actions .friend,
 #user-rollover .actions .gift,
 #user-rollover .actions .ignore,
 #user-rollover .actions .mention {
     -webkit-box-shadow: inset 2px 0 0 -1px hsla(40, 53%, 51%, 0.65);
     -moz-box-shadow: inset 2px 0 0 -1px hsla(40, 53%, 51%, 0.65);
-    box-shadow: inset 2px 0 0 -1px hsla(40, 53%, 51%, 0.65);
-}
+    box-shadow: inset 2px 0 0 -1px hsla(40, 53%, 51%, 0.65);}
 #user-rollover .actions .mod-dj {
     -webkit-box-shadow: inset 0 2px 0 -1px hsla(40, 53%, 51%, 0.65);
     -moz-box-shadow: inset 0 2px 0 -1px hsla(40, 53%, 51%, 0.65);
-    box-shadow: inset 0 2px 0 -1px hsla(40, 53%, 51%, 0.65);
-}
-#user-rollover .actions .mod-dj {
-    -webkit-box-shadow: inset 0 2px 0 -1px hsla(40, 53%, 51%, 0.65);
-    -moz-box-shadow: inset 0 2px 0 -1px hsla(40, 53%, 51%, 0.65);
-    box-shadow: inset 0 2px 0 -1px hsla(40, 53%, 51%, 0.65);
-}
+    box-shadow: inset 0 2px 0 -1px hsla(40, 53%, 51%, 0.65);}
 #user-rollover .actions .mod-ban,
 #user-rollover .actions .mod-mute,
 #user-rollover .actions .mod-staff {
     -webkit-box-shadow: inset 1px 1px 0 0 hsla(40, 53%, 51%, 0.65);
     -moz-box-shadow: inset 1px 1px 0 0 hsla(40, 53%, 51%, 0.65);
-    box-shadow: inset 1px 1px 0 0 hsla(40, 53%, 51%, 0.65);
-}
+    box-shadow: inset 1px 1px 0 0 hsla(40, 53%, 51%, 0.65);}
 .action.rcs-qmute {
-    box-shadow: hsla(40, 53%, 51%, 0.65) 0px 2px 0px -1px inset !important;
-}
+    box-shadow: hsla(40, 53%, 51%, 0.65) 0px 2px 0px -1px inset !important;}
 .action.rcs-qban {
-    box-shadow: hsla(40, 53%, 51%, 0.65) 1px 1px 0px 0px inset !important;
-}
+    box-shadow: hsla(40, 53%, 51%, 0.65) 1px 1px 0px 0px inset !important;}
 .action.rcs-qinfo {
-    box-shadow: hsla(40, 53%, 51%, 0.65) 1px 1px 0px 0px inset !important;
-}
+    box-shadow: hsla(40, 53%, 51%, 0.65) 1px 1px 0px 0px inset !important;}
 #user-rollover .meta {
     -webkit-transition: all 0.4s linear;
     -moz-transition: all 0.4s linear;
     -o-transition: all 0.4s linear;
-    transition: all 0.4s linear;
-}
-
+    transition: all 0.4s linear;}
+/* ------------------------------------------------------------------ */
 /* barrinha lateral mouse */
 ::-webkit-scrollbar-thumb {
     background: rgba(196, 152, 64, 0.75) !important;
-    border-radius: 5px;
-}
+    border-radius: 5px;}
 .jspDrag:hover,
 .jspTrack .jspActive,
 .jspTrack .jspHover {
-    background: rgba(196, 152, 64, 0.75) !important;
-}
+    background: rgba(196, 152, 64, 0.75) !important;}
 .jspDrag {
     background: rgba(196, 152, 64, 0.75);
     -webkit-box-shadow: inset 0 0 0 1px rgba(196, 152, 64, 0.45);
     -moz-box-shadow: inset 0 0 0 1px rgba(196, 152, 64, 0.45);
     box-shadow: inset 0 0 0 1px rgba(196, 152, 64, 0.45);
-    border-radius: 5px;
-}
-
+    border-radius: 5px;}
+/* ------------------------------------------------------------------ */
 /*BG Icone avatar*/
 .thumb .background {
-    background: rgba(0, 0, 0, 0.6);
-}
-
-/* CORES CHAT */
-
-/* HOST */
-#user-lists .group.host {
-    color: #DB182E;
-    top: 1px;
-}
-.icon-chat-host + span,
-#user-lists .group.host ~ .user span,
-#dialog-user-role .role-menu .menu ul .host span {
-    color: #DB182E !important;
-}
-.icon-chat-cohost + span,
-#user-lists .group.cohost ~ .user span,
-#dialog-user-role .role-menu .menu ul .cohost span {
-    color: #DB182E !important;
-}
-#user-lists .group {
-    border: none !important;
-    box-shadow: 0 0 1px 1px;
-}
-
-/* COORDENADOR */
-#user-lists .group.manager {
-    color: #BE9113;
-}
-#user-lists .group.manager ~ .user span,
-#dialog-user-role .role-menu .menu ul .manager span {
-    color: #BE9113 !important;
-}
-.icon-chat-manager + span,
-#user-lists .group.manager ~ .user span,
-#dialog-user-role .role-menu .menu ul .manager span {
-    color: #BE9113 !important;
-}
-
-/* SEGURANÇA */
-#user-lists .group.bouncer {
-    color: #05ABE4;
-}
-.icon-chat-bouncer + span,
-#user-lists .group.bouncer ~ .user span,
-#dialog-user-role .role-menu .menu ul .bouncer span {
-    color: #05ABE4 !important;
-}
-
-/* DJ RESIDENT */
-#user-lists .group.dj {
-    color: #7936E8;
-}
-.icon-chat-dj + span,
-#user-lists .group.dj ~ .user span,
-#dialog-user-role .role-menu .menu ul .dj span {
-    color: #7936E8 !important;
-}
-
-/* Hover Link's */
-#room-settings a:hover,
-#chat a:hover {
-    color: hsl(200, 100%, 55%) !important;
-    text-shadow: 0 0 5px;
-}
-
+    background: rgba(0, 0, 0, 0.6);}
+/* ------------------------------------------------------------------ */
 /* BG Conf comu */
 #user-view,
 #dashboard,
@@ -701,506 +568,279 @@ background: linear-gradient(hsla(0, 0%, 0%, 0.94), hsla(0, 0%, 0%, 0.94)) !impor
 #media-panel,
 #playlist-panel,
 #history-panel {
-    background: linear-gradient(hsla(210, 10%, 7%, .9), hsla(210, 10%, 5%, .9)) !important;
-}
+    background: linear-gradient(hsla(210, 10%, 7%, .9), hsla(210, 10%, 5%, .9)) !important;}
 #user-menu,
 #room-settings-menu,
 #playlist-menu {
-    background: linear-gradient(to right, hsla(210, 10%, 10%, 0), hsla(210, 10%, 10%, .2));
-}
-
+    background: linear-gradient(to right, hsla(210, 10%, 10%, 0), hsla(210, 10%, 10%, .2));}
+/* ------------------------------------------------------------------ */
 /* Cores menu conf comu */
 #room-settings .general-settings .option.enabled>button.off {
-    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
-}
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));}
 #room-settings .general-settings .option button {
-    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
-}
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));}
 #room-settings .general-settings .option button.off {
-    background: linear-gradient(hsla(40, 53%, 51%, 10.78), hsla(42, 61%, 18%, 0.95));
-}
+    background: linear-gradient(hsla(40, 53%, 51%, 10.78), hsla(42, 61%, 18%, 0.95));}
 #room-settings .general-settings .option.enabled>button.on {
-    background: linear-gradient(hsl(350, 78%, 26%), hsl(350, 89%, 15%));
-}
+    background: linear-gradient(hsl(350, 78%, 26%), hsl(350, 89%, 15%));}
 #room-settings-menu .item.selected {
-    background: linear-gradient(hsla(40, 53%, 51%, 10.78), hsla(42, 61%, 18%, 0.95));
-}
+    background: linear-gradient(hsla(40, 53%, 51%, 10.78), hsla(42, 61%, 18%, 0.95));}
 .dropdown {
-    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91)) !important;
-}
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91)) !important;}
 .dropdown dd {
-    background: hsla(220, 0%, 5%, 0.8) !important;
-}
+    background: hsla(220, 0%, 5%, 0.8) !important;}
 .dropdown dt {
     -webkit-box-shadow: inset -39px 0 0 0 #c49840;
     -moz-box-shadow: inset -39px 0 0 0 #c49840;
-    box-shadow: inset -39px 0 0 0 #c49840;
-}
-
+    box-shadow: inset -39px 0 0 0 #c49840;}
+/* ------------------------------------------------------------------ */
 /* BG Avatar loja */
 .user-content .grid .cell .top {
-    background: none !important;
-}
+    background: none !important;}
 .user-content .grid .cell,
 .user-content.communities .grid .cell {
     background: hsla(220, 0%, 5%, 0.3) !important;
-    border-radius: 15px;
-}
+    border-radius: 15px;}
 .user-content .grid .cell:hover > .top {
     background: rgba(196, 152, 64, 0.3) !important;
-    border-radius: 15px;
-}
+    border-radius: 15px;}
 #user-store .misc .grid .cell .title-bar {
-    background: none;
-}
+    background: none;}
 #user-store .misc .grid .cell .title-bar span {
-    font-size: 15px;
-}
+    font-size: 15px;}
 /* BG Avatar perfil*/
 #user-menu .avatar {
-    background: linear-gradient(to bottom, #c7993e 0, #58421e 56%, #332919 73%, #25211c 100%);
-}
-
+    background: linear-gradient(to bottom, #c7993e 0, #58421e 56%, #332919 73%, #25211c 100%);}
+/* ------------------------------------------------------------------ */
 /* Status,Subscribe,Notificaçoes menu */
 .subscribe-button {
-    background: hsla(220, 0%, 5%, 0.1) !important;
-}
+    background: hsla(220, 0%, 5%, 0.1) !important;}
 .subscribe-button:hover {
-    background: rgba(204, 155, 56, 0.25) !important;
-}
+    background: rgba(204, 155, 56, 0.25) !important;}
 .user-content.profile .meta .blurb .box {
-    background: hsla(220, 0%, 5%, 0.3) !important;
-}
+    background: hsla(220, 0%, 5%, 0.3) !important;}
 .user-content.profile .meta .blurb input {
     -webkit-box-shadow: inset 0 0 0 1px #b98e3a;
     -moz-box-shadow: inset 0 0 0 1px #b98e3a;
     box-shadow: inset 0 0 0 1px #b98e3a;
-    border-radius: 8px;
-}
+    border-radius: 8px;}
 .experience .xp .bar {
     background: hsla(220, 0%, 5%, 0.7) !important;
-    border-radius: 10px;
-}
+    border-radius: 10px;}
 .user-content.profile .notifications .row {
-    background: hsla(220, 0%, 5%, 0.70);
-}
-
+    background: hsla(220, 0%, 5%, 0.70);}
+/* ------------------------------------------------------------------ */
 /* Barra de xp (BG) */
 #footer-user .info .meta div.bar {
-    background: hsla(220, 0%, 12%, 0.6);
-}
-
+    background: hsla(220, 0%, 12%, 0.6);}
+/* ------------------------------------------------------------------ */
 /* Barra de pesquisa playlist */
 #search {
-    background: rgba(19, 20, 23, 0.55);
-}
-
+    background: rgba(19, 20, 23, 0.55);}
+/* ------------------------------------------------------------------ */
 /* Botao ativar playlist */
 #playlist-activate-button {
-    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
-}
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));}
 #playlist-activate-button:hover {
-    background: linear-gradient(hsl(40, 58%, 47%), hsla(220, 4%, 5%, 0.51));
-}
+    background: linear-gradient(hsl(40, 58%, 47%), hsla(220, 4%, 5%, 0.51));}
 #playlist-activate-button.active {
-    background: linear-gradient(hsl(40, 58%, 47%), hsla(220, 4%, 5%, 0.51));
-}
+    background: linear-gradient(hsl(40, 58%, 47%), hsla(220, 4%, 5%, 0.51));}
 #playlist-activate-button.active {
-cursor: default !important;
-}
-/* Botoes editar playlist */
+cursor: default !important;}
+/* ------------------------------------------------------------------ */
+/* Botao editar playlist */
 #playlist-edit-button {
-    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
-}
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));}
 #playlist-edit-button:hover {
-    background: linear-gradient(hsla(193, 100%, 45%, 0.78), hsla(193, 100%, 26%, 0.91));
-}
+    background: linear-gradient(hsla(193, 100%, 45%, 0.78), hsla(193, 100%, 26%, 0.91));}
+/* ------------------------------------------------------------------ */
+/* Botao randomizar musicas */
 #playlist-shuffle-button {
-    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
-}
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));}
 #playlist-shuffle-button:hover {
-    background: linear-gradient(hsla(263, 79%, 56%, 0.6), hsla(263, 79%, 35%, 0.6));
-}
+    background: linear-gradient(hsla(263, 79%, 56%, 0.6), hsla(263, 79%, 35%, 0.6));}
+/* ------------------------------------------------------------------ */
+/* Botao deletar playlist */
 #playlist-delete-button {
-    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
-}
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));}
 #playlist-delete-button:hover {
-    background: linear-gradient(hsla(0, 79%, 50%, 0.64), hsla(0, 79%, 37%, 0.64));
-}
-
-/* Playlist tocando */
+    background: linear-gradient(hsla(0, 79%, 50%, 0.64), hsla(0, 79%, 37%, 0.64));}
+/* ------------------------------------------------------------------ */
+/* Playlist musica tocando */
 .media-list .row.now-playing {
     background: rgba(210, 152, 40, 0.5)!important;
-    border-bottom: #000000 2px solid!important;
-}
-
+    border-bottom: #000000 2px solid!important;}
+/* ------------------------------------------------------------------ */
 /* Botoes importar, Criar playlist */
 #playlist-import {
-    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
-}
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));}
 #playlist-import:hover {
-    background: linear-gradient(hsla(263, 79%, 56%, 0.6), hsla(263, 79%, 35%, 0.6));
-}
+    background: linear-gradient(hsla(263, 79%, 56%, 0.6), hsla(263, 79%, 35%, 0.6));}
 #playlist-create {
-    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
-}
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));}
 #playlist-create:hover {
-    background: linear-gradient(hsla(193, 100%, 45%, 0.78), hsla(193, 100%, 26%, 0.91));
-}
-
-/* Botoes importar */
+    background: linear-gradient(hsla(193, 100%, 45%, 0.78), hsla(193, 100%, 26%, 0.91));}
+/* ------------------------------------------------------------------ */
+/* Botoes importar de outros servicos */
 #playlist-import-panel .button {
-    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
-}
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));}
 #playlist-import-panel .button:hover {
-    background: linear-gradient(hsl(352, 91%, 37%), hsl(349, 69%, 17%));
-}
+    background: linear-gradient(hsl(352, 91%, 37%), hsl(349, 69%, 17%));}
 #import-youtube .youtube-input {
     background: rgba(25, 27, 31, 0.4);
-    box-shadow: inset 0 0 0 1px #534322;
-}
+    box-shadow: inset 0 0 0 1px #534322;}
 #media-panel .header .import-button {
-    background: linear-gradient(hsla(263, 79%, 56%, 0.6), hsla(263, 79%, 35%, 0.6));
-}
-
+    background: linear-gradient(hsla(263, 79%, 56%, 0.6), hsla(263, 79%, 35%, 0.6));}
+/* ------------------------------------------------------------------ */
 /* Botao editar música */
 .media-list .selected .actions {
-    background: linear-gradient(hsl(40, 80%, 39%), hsl(40, 78%, 10%)) !important;
-}
+    background: linear-gradient(hsl(40, 80%, 39%), hsl(40, 78%, 10%)) !important;}
 .media-list .actions {
-    background: linear-gradient(hsla(222, 16%, 17%, 0.88), hsla(222, 12%, 8%, 0.88)) !important;
-}
-.media-list .action.edit:hover {
-    background: linear-gradient(hsl(41, 86%, 27%), hsl(40, 79%, 6%));
-}
-.media-list .action.related:hover {
-    background: linear-gradient(hsl(41, 86%, 27%), hsl(40, 79%, 6%));
-}
-.media-list .action.move-to-bottom:hover {
-    background: linear-gradient(hsl(41, 86%, 27%), hsl(40, 79%, 6%));
-}
-.media-list .action.move-to-top:hover {
-    background: linear-gradient(hsl(41, 86%, 27%), hsl(40, 79%, 6%));
-}
-.media-list .action.delete:hover {
-    background: linear-gradient(hsl(41, 86%, 27%), hsl(40, 79%, 6%));
-}
+    background: linear-gradient(hsla(222, 16%, 17%, 0.88), hsla(222, 12%, 8%, 0.88)) !important;}
+.media-list .action.edit:hover,
+.media-list .action.related:hover,
+.media-list .action.move-to-bottom:hover,
+.media-list .action.move-to-top:hover,
+.media-list .action.delete:hover,
 div.action.add:hover {
-    background: linear-gradient(hsl(41, 86%, 27%), hsl(40, 79%, 6%));
-}
-
+    background: linear-gradient(hsl(41, 86%, 27%), hsl(40, 79%, 6%));}
+/* ------------------------------------------------------------------ */
 /* Botoes menu de amigos */
 #user-friends .list .row .buttons button {
-    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));
-}
+    background: linear-gradient(hsla(220, 6%, 18%, 0.78), hsla(220, 4%, 5%, 0.91));}
 #user-friends .list .row .buttons button.positive:hover {
-    background: linear-gradient(hsla(193, 100%, 45%, 0.78), hsla(193, 100%, 26%, 0.91));
-}
+    background: linear-gradient(hsla(193, 100%, 45%, 0.78), hsla(193, 100%, 26%, 0.91));}
 #user-friends .list .row .buttons button.negative:hover {
-    background: linear-gradient(hsl(350, 74%, 38%), hsl(350, 81%, 24%));
-}
-
+    background: linear-gradient(hsl(350, 74%, 38%), hsl(350, 81%, 24%));}
+/* ------------------------------------------------------------------ */
 /* Menu emblemas */
 .user-content .grid .cell:hover {
-    background: rgba(196, 152, 64, 0.3) !important;
-}
+    background: rgba(196, 152, 64, 0.3) !important;}
 #user-inventory .badges .grid .cell.selected {
     background: rgba(204, 145, 25, 0.5);
     -webkit-box-shadow: inset 0 0 0 2px rgba(204, 145, 25, 0.5);
     -moz-box-shadow: inset 0 0 0 2px rgba(204, 145, 25, 0.5);
-    box-shadow: inset 0 0 0 2px rgba(204, 145, 25, 0.5);
-}
-
+    box-shadow: inset 0 0 0 2px rgba(204, 145, 25, 0.5);}
+/* ------------------------------------------------------------------ */
 /* Avatar selecionado */
 #user-inventory .avatars .grid .cell.selected {
     background: rgba(204, 145, 25, 0.5);
     -webkit-box-shadow: inset 0 0 0 2px rgba(204, 145, 25, 0.5);
     -moz-box-shadow: inset 0 0 0 2px rgba(204, 145, 25, 0.5);
-    box-shadow: inset 0 0 0 2px rgba(204, 145, 25, 0.5);
-}
-
+    box-shadow: inset 0 0 0 2px rgba(204, 145, 25, 0.5);}
+/* ------------------------------------------------------------------ */
 /* Menu níveis */
 .experience .levels .level .label {
-    background: linear-gradient(hsla(0, 14%, 11%, 0.78), hsla(0, 9%, 7%, 0.99));
-}
+    background: linear-gradient(hsla(0, 14%, 11%, 0.78), hsla(0, 9%, 7%, 0.99));}
 .experience .levels .level {
-    background: linear-gradient(hsla(0, 12%, 24%, 0.72), hsla(255, 9%, 5%, 0.58));
-}
+    background: linear-gradient(hsla(0, 12%, 24%, 0.72), hsla(255, 9%, 5%, 0.58));}
 .experience .levels .level.mystery .label {
-    background: linear-gradient(hsla(40, 68%, 24%, 0.92), hsla(40, 78%, 15%, 0.91));
-}
+    background: linear-gradient(hsla(40, 68%, 24%, 0.92), hsla(40, 78%, 15%, 0.91));}
 div.level.earned.ep .label {
-    background: rgba(140, 108, 43, 1) !important;
-}
-
+    background: rgba(140, 108, 43, 1) !important;}
+/* ------------------------------------------------------------------ */
 /* Borda icone avatar */
 #user-rollover.role-host .thumb {
-    border-color: #db182e !important;
-}
+    border-color: #db182e !important;}
 #user-rollover.role-cohost .thumb {
-    border-color: #ff1e37 !important;
-}
+    border-color: #ff1e37 !important;}
 #user-rollover.role-manager .thumb {
-    border-color: #be9113 !important;
-}
+    border-color: #be9113 !important;}
 #user-rollover.role-bouncer .thumb {
-    border-color: #05abe4 !important;
-}
+    border-color: #05abe4 !important;}
 #user-rollover.role-dj .thumb {
-    border-color: #7936e8 !important;
-}
+    border-color: #7936e8 !important;}
 #user-rollover.role-user .thumb {
-    border-color: #007a5a !important;
-}
-
+    border-color: #007a5a !important;}
+/* ------------------------------------------------------------------ */
 /* Barra de pedidos de amizade */
 .app-right .friends .header {
-    background: linear-gradient(rgba(43, 45, 48, 0.780392), rgba(12, 12, 13, 0.909804)) !important;
-}
+    background: linear-gradient(rgba(43, 45, 48, 0.780392), rgba(12, 12, 13, 0.909804)) !important;}
 .app-right .friends .header:hover {
-    background: linear-gradient(hsla(40, 53%, 51%, 10.78), hsla(42, 61%, 18%, 0.95)) !important;
-}
-
+    background: linear-gradient(hsla(40, 53%, 51%, 10.78), hsla(42, 61%, 18%, 0.95)) !important;}
+/* ------------------------------------------------------------------ */
 /* Tooltip BG */
 #tooltip span {
-    background: rgba(204, 145, 25, 0.6) !important;
-}
+    background: rgba(204, 145, 25, 0.6) !important;}
 #tooltip.right .corner {
     border-top: 10px solid transparent !important;
-    border-right: 10px solid transparent !important;
-}
+    border-right: 10px solid transparent !important;}
 #tooltip .corner {
     border-top: 10px solid transparent !important;
-    border-left: 10px solid transparent !important;
-}
+    border-left: 10px solid transparent !important;}
 #toast-notifications .notification .right {
-    background: rgba(77, 54, 10, 0.6) !important;
-}
+    background: rgba(77, 54, 10, 0.6) !important;}
 #toast-notifications .notification .left {
-    background: rgba(77, 54, 10, 0.9) !important;
-}
+    background: rgba(77, 54, 10, 0.9) !important;}
 #rcs-loader-progress {
     background-color: rgba(77, 54, 10, 0.9) !important;
-    border: 3px solid rgba(77, 54, 10, 0.9) !important;
-}
-
-/* BG Chat sugestão */
-#chat-suggestion {
-    background: rgba(2, 1, 1, 0.9);
-}
-
-/* Bordas aredondas caixas de dialogo */
-#search-bar {
-    border-radius: 10px;
-}
-#filter-bar {
-    border-radius: 10px;
-}
-#user-lists .list-header .input-background {
-    border-radius: 10px;
-}
-.app-right .friends .list-header .input-background {
-    border-radius: 10px;
-}
-#rcs-menu .search {
-    border-radius: 10px;
-}
-#dashboard .search {
-    border-radius: 10px;
-}
-#user-friends .search {
-    border-radius: 10px;
-}
-#search-menu {
-    border-radius: 10px;
-}
-
-/* Menu selecionar mecanismo de pesquisa  */
-#search-menu .bar-divider {
-    -webkit-box-shadow: inset 0 0 0 1px #534322;
-    -moz-box-shadow: inset 0 0 0 1px #534322;
-    box-shadow: inset 0 0 0 1px #534322;
-}
-#search-menu li.last {
-    border-bottom: 1px solid #534322;
-}
-#search-menu li {
-    border-top: 1px solid #1c1f25;
-    border-left: 1px solid #534322;
-    border-right: 1px solid #534322;
-}
-#search-menu:hover {
-    border-right: 1px solid #534322;
-}
-#search-menu li:hover {
-    background: rgba(150, 111, 36, 0.91);
-}
-/* Borda arredondada */
-
-#user-menu .item {
-    border-radius: 10px;
-}
-#user-menu .avatar {
-    border-radius: 10px;
-}
-.experience .xp .bar .progress {
-    border-radius: 10px;
-}
-.user-content.profile .notifications .row {
-    border-radius: 10px;
-}
-.dropdown dt {
-    border-radius: 10px;
-}
-.dropdown {
-    border-radius: 10px;
-}
-#user-friends .list .row .buttons button {
-    border-radius: 5px;
-}
-#user-friends .search {
-    border-radius: 10px;
-}
-#dashboard .search {
-    border-radius: 10px;
-}
-.communities .grid .cell {
-    border-radius: 15px;
-}
-.communities .grid .cell .favorite {
-    border-radius: 3px;
-}
-#footer-user .info .bar .progress {
-    border-radius: 5px;
-}
-#footer-user .info .meta div.bar {
-    border-radius: 5px;
-}
-#search-bar {
-    border-radius: 10px;
-}
-#filter-bar {
-    border-radius: 10px;
-}
-#playlist-button {
-    border-radius: 7px;
-}
-.app-right .friends .list-header .input-background {
-    border-radius: 7px;
-}
-#rcs-menu .search {
-    border-radius: 7px;
-}
-.user-content .grid .cell,
-.user-content.communities .grid .cell {
-    background: hsla(220, 0%, 5%, 0.3) !important;
-    border-radius: 15px;
-}
-
+    border: 3px solid rgba(77, 54, 10, 0.9) !important;}
+/* ------------------------------------------------------------------ */
 /* Menu de Grab */
 .pop-menu .bar {
-    background: linear-gradient(hsl(40, 51%, 38%), hsl(40, 63%, 19%));
-}
+    background: linear-gradient(hsl(40, 51%, 38%), hsl(40, 63%, 19%));}
 .pop-menu li {
-    background: rgba(0, 0, 0, 0.4);
-}
+    background: rgba(0, 0, 0, 0.4);}
 .pop-menu li:hover {
-    background: rgba(196, 152, 64, 0.46);
-}
-
-/* Menu lista Ban/Mute/Ignorados */
-#user-lists .list.bans .user:hover {
-    background: linear-gradient(to right, rgba(255, 118, 118, 0) 0, rgba(255, 0, 0, 0.27) 100%) !important;
-}
-#user-lists .list.mutes .user:hover {
-    background: linear-gradient(to right, rgba(255, 118, 118, 0) 0, rgba(255, 72, 0, 0.27) 100%) !important;
-}
-#user-lists .list.ignored .user:hover {
-    background: linear-gradient(to right, rgba(255, 118, 118, 0) 0, rgba(255, 191, 0, 0.27) 100%) !important;
-}
-
+    background: rgba(196, 152, 64, 0.46);}
+/* ------------------------------------------------------------------ */
 /* Menu dialogo/Menu dialogo cargos/Botoes confirmar */
 .dialog-frame .button.cancel {
-    background: linear-gradient(hsla(220, 6%, 18%, 1), hsla(220, 4%, 5%, 1)) !important;
-}
+    background: linear-gradient(hsla(220, 6%, 18%, 1), hsla(220, 4%, 5%, 1)) !important;}
 #dialog-user-role .role-menu {
-    background: linear-gradient(hsl(220, 5%, 12%), hsl(220, 9%, 7%)) !important;
-}
+    background: linear-gradient(hsl(220, 5%, 12%), hsl(220, 9%, 7%)) !important;}
 #dialog-user-role .role-menu .menu li {
-    background: linear-gradient(hsl(220, 7%, 9%), hsl(220, 6%, 7%)) !important;
-}
+    background: linear-gradient(hsl(220, 7%, 9%), hsl(220, 6%, 7%)) !important;}
 #dialog-user-role .role-menu .menu li:hover {
-    background: linear-gradient(hsl(220, 5%, 12%), hsl(220, 9%, 7%)) !important;
-}
+    background: linear-gradient(hsl(220, 5%, 12%), hsl(220, 9%, 7%)) !important;}
 .dialog-frame .button.submit.destructive {
-    background: linear-gradient(hsl(14, 72%, 48%), hsl(14, 65%, 27%)) !important;
-}
+    background: linear-gradient(hsl(14, 72%, 48%), hsl(14, 65%, 27%)) !important;}
 .dialog.destructive .button.submit {
-    background: linear-gradient(hsl(14, 72%, 48%), hsl(14, 65%, 27%)) !important;
-}
+    background: linear-gradient(hsl(14, 72%, 48%), hsl(14, 65%, 27%)) !important;}
 .dialog-frame .button.submit,
 .rs .button.submit {
-    background: linear-gradient(hsla(193, 100%, 45%, 1), hsla(193, 100%, 26%, 1)) !important;
-}
+    background: linear-gradient(hsla(193, 100%, 45%, 1), hsla(193, 100%, 26%, 1)) !important;}
 .dialog-frame .button.submit.purchase {
-    background: linear-gradient(hsl(99, 44%, 50%), hsl(107, 51%, 23%)) !important;
-}
+    background: linear-gradient(hsl(99, 44%, 50%), hsl(107, 51%, 23%)) !important;}
 .button.rsreset {
-    background: linear-gradient(hsla(220, 6%, 18%, 1), hsla(220, 4%, 5%, 1));
-}
+    background: linear-gradient(hsla(220, 6%, 18%, 1), hsla(220, 4%, 5%, 1));}
 div#rs_autowoot_normal.button.submit.cancel {
-    background: linear-gradient(hsla(193, 100%, 45%, 1), hsla(193, 100%, 26%, 1)) !important;
-}
+    background: linear-gradient(hsla(193, 100%, 45%, 1), hsla(193, 100%, 26%, 1)) !important;}
 .dialog-frame .button.cancel {
-    color: #fff !important;
-}
+    color: #fff !important;}
 .dialog.no-submit .button.submit {
-    color: #fff !important;
-}
-
+    color: #fff !important;}
+/* ------------------------------------------------------------------ */
 /* Botao voltar playlist */
 #media-panel .header .back {
-    background: linear-gradient(hsl(220, 5%, 12%), hsl(220, 9%, 7%)) !important;
-}
+    background: linear-gradient(hsl(220, 5%, 12%), hsl(220, 9%, 7%)) !important;}
 #media-panel .header .back:hover {
-    background: linear-gradient(hsl(40, 61%, 54%), hsl(40, 59%, 31%)) !important;
-}
-
+    background: linear-gradient(hsl(40, 61%, 54%), hsl(40, 59%, 31%)) !important;}
+/* ------------------------------------------------------------------ */
 /* Menu plug */
 #app-menu,
 #app-menu .list {
-    background: rgba(18, 20, 23, 0.62) !important;
-}
+    background: rgba(18, 20, 23, 0.62) !important;}
 #app-menu .list .item:hover {
-    background: rgba(105, 79, 28, 0.32);
-}
-#app-menu .list .rcsunload:hover {
-    border: 1px solid #836425 !important;
-    background: rgba(105, 79, 28, 0.32) !important;
-    color: #eee;
-}
+    background: rgba(105, 79, 28, 0.32);}
+#app-menu .list .rcsunload:hover,
 #app-menu .list .logout:hover {
     border: 1px solid #836425 !important;
-    background: rgba(105, 79, 28, 0.32) !important;
-    color: #eee;
-}
+    background: rgba(105, 79, 28, 0.32) !important;}
+/* ------------------------------------------------------------------ */
 /* Cores status perfil*/
+#user-rollover .meta .showID,
 #user-rollover .meta .joined {
-color: #ffffff !important;
-}
+color: #ffffff !important;}
 #user-rollover .meta span.user-id {
-color: #fff !important;
-}
-#user-rollover .meta .showID {
-color: #ffffff !important;
-}
+color: #fff !important;}
+/* ------------------------------------------------------------------ */
 /* Hover itens menu de configuração plug */
 #user-settings .container .item {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   overflow: hidden;
-  border-radius: 10px;
-}
+  border-radius: 10px;}
 #user-settings .container .item:before {
   content: "";
   position: absolute;
@@ -1216,54 +856,34 @@ color: #ffffff !important;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
+  transition-timing-function: ease-out;}
 #user-settings .container .item:hover:before {
   -webkit-transform: translateY(0);
-  transform: translateY(0);
-}
+  transform: translateY(0);}
+/* ------------------------------------------------------------------ */
 /* Hover itens menu usuário plug */
-.item.profile.notify:hover {
+.item.profile.notify:hover,
+.item.inventory:hover,
+.item.store:hover,
+.item.friends.notify:hover,
+.item.played:hover,
+.item.settings:hover {
     background: linear-gradient(rgba(165, 125, 47, 0.68), rgba(117, 87, 29, 0.39));
-    border-radius: 10px;
-}
-.item.inventory:hover {
-    background: linear-gradient(rgba(165, 125, 47, 0.68), rgba(117, 87, 29, 0.39));
-    border-radius: 10px;
-}
-.item.store:hover{
-    background: linear-gradient(rgba(165, 125, 47, 0.68), rgba(117, 87, 29, 0.39));
-    border-radius: 10px;
-}
-.item.friends.notify:hover{
-    background: linear-gradient(rgba(165, 125, 47, 0.68), rgba(117, 87, 29, 0.39));
-    border-radius: 10px;
-}
-.item.played:hover{
-    background: linear-gradient(rgba(165, 125, 47, 0.68), rgba(117, 87, 29, 0.39));
-    border-radius: 10px;
-}
-.item.community:hover{
-    background: linear-gradient(rgba(165, 125, 47, 0.68), rgba(117, 87, 29, 0.39));
-}
-.item.settings:hover{
-    background: linear-gradient(rgba(165, 125, 47, 0.68), rgba(117, 87, 29, 0.39));
-    border-radius: 10px;
-}
+    border-radius: 10px;}
+.item.community:hover {
+    background: linear-gradient(rgba(165, 125, 47, 0.68), rgba(117, 87, 29, 0.39));}
+/* ------------------------------------------------------------------ */
 /* Barra de avatares plug */
 #user-settings .container .cap .slider .bar {
-background: linear-gradient(rgb(90, 67, 20), rgba(74, 56, 16, 0.952941));
-}
+background: linear-gradient(rgb(90, 67, 20), rgba(74, 56, 16, 0.952941));}
 #user-settings .container .cap .slider .circle {
-    background: linear-gradient(rgb(199, 157, 68), rgba(78, 62, 27, 0.952941));
-}
+    background: linear-gradient(rgb(199, 157, 68), rgba(78, 62, 27, 0.952941));}
 /* Shake Face e Twitter icones */
 #facebook-menu:hover {
   animation: shake 0.82s cubic-bezier(.16,.07,.19,.25) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
-  perspective: 1000px;
-}
+  perspective: 1000px;}
 
 @keyframes shake {
   10%, 90% {
@@ -1287,8 +907,7 @@ background: linear-gradient(rgb(90, 67, 20), rgba(74, 56, 16, 0.952941));
   animation: shake 0.82s cubic-bezier(.16,.07,.19,.25) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
-  perspective: 1000px;
-}
+  perspective: 1000px;}
 
 @keyframes shake {
   10%, 90% {
@@ -1307,21 +926,7 @@ background: linear-gradient(rgb(90, 67, 20), rgba(74, 56, 16, 0.952941));
     transform: translate3d(2px, 0, 0);
   }
 }
-
-/* Botoes deletar/Esconder mensagem chat */
-#chat .delete-button { 
-    background: linear-gradient(hsl(40, 66%, 20%), hsl(40, 67%, 7%));
-    border-radius: 8px;
-} 
-#chat .delete-button:hover { 
-   background: linear-gradient(hsl(0, 77%, 30%), hsl(0, 80%, 19%));
-    border-radius: 8px;
-}
-.radiantimg-delete { 
-background: linear-gradient(hsl(266, 80%, 22%), hsl(269, 81%, 13%)) !important;
-border-radius: 8px;
-}
+/* ------------------------------------------------------------------ */
 /* Hover itens de sugestao */
 .dropdown dd .row:hover, .chat-suggestion-item[style='background: rgb(45, 49, 58);'], #search-suggestion .search-suggestion-item.selected, #dialog-restricted-media .row.selected, #dialog-user-role .role-menu .menu ul li:hover {
-    background: linear-gradient(hsl(40, 55%, 48%), hsl(40, 64%, 23%)) !important;
-}
+    background: linear-gradient(hsl(40, 55%, 48%), hsl(40, 64%, 23%)) !important;}
