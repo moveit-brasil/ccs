@@ -469,7 +469,6 @@ background: linear-gradient(hsla(0, 0%, 0%, 0.94), hsla(0, 0%, 0%, 0.94)) !impor
     border-radius: 15px;}
 .user-content .grid .cell,
 .user-content.communities .grid .cell {
-    background: hsla(220, 0%, 5%, 0.3) !important;
     border-radius: 15px;}
 /* ------------------------------------------------------------------ */
 /* Menu selecionar mecanismo de pesquisa  */
@@ -599,7 +598,6 @@ background: linear-gradient(hsla(0, 0%, 0%, 0.94), hsla(0, 0%, 0%, 0.94)) !impor
     background: none !important;}
 .user-content .grid .cell,
 .user-content.communities .grid .cell {
-    background: hsla(220, 0%, 5%, 0.3) !important;
     border-radius: 15px;}
 .user-content .grid .cell:hover > .top {
     background: rgba(196, 152, 64, 0.3) !important;
