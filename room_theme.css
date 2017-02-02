@@ -417,7 +417,7 @@ background: linear-gradient(hsla(0, 0%, 0%, 0.94), hsla(0, 0%, 0%, 0.94)) !impor
     color: #c59840;}
 .grid .cell .top .expires span {
 	color: hsl(30,100%,50%) !important;}
-.user-content .grid .cell, .user-content.communities .grid .cell, .grid .cell {
+.user-content.communities .grid .cell, .grid .cell {
     background: radial-gradient(hsl(0, 0%, 0%), hsl(40, 53%, 51%)) !important;}
 .grid .cell .meta .host {
 	text-align: center !important;
@@ -467,7 +467,8 @@ background: linear-gradient(hsla(0, 0%, 0%, 0.94), hsla(0, 0%, 0%, 0.94)) !impor
     border-radius: 10px;}
 .communities .grid .cell {
     border-radius: 15px;}
-.user-content .grid .cell,
+.user-content .grid .cell {
+background: hsla(220, 0%, 5%, 0.3) !important;}
 .user-content.communities .grid .cell {
     border-radius: 15px;}
 /* ------------------------------------------------------------------ */
