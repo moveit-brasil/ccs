@@ -781,7 +781,7 @@ div.level.earned.ep .label {
 .pop-menu li {
     background: rgba(0, 0, 0, 0.4);}
 .pop-menu li:hover {
-    background: rgba(196, 152, 64, 0.46);}
+    background: linear-gradient(hsl(40, 55%, 48%), hsl(40, 64%, 23%));}
 /* ------------------------------------------------------------------ */
 /* Menu dialogo/Menu dialogo cargos/Botoes confirmar */
 .dialog-frame .button.cancel {
