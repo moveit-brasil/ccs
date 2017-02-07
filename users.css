@@ -423,7 +423,10 @@
 #chat-messages  .id-23648920 .badge-box i,
 /* SρєαR [15473899] */
 #chat-messages .fromID-15473899 .badge-box i,
-#chat-messages  .id-15473899 .badge-box i {
+#chat-messages  .id-15473899 .badge-box i,
+/* João Victor Firlo [6482416] */
+#chat-messages .fromID-6482416 .badge-box i,
+#chat-messages  .id-6482416 .badge-box i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -859,7 +862,10 @@
 #chat-messages  .id-23648920 .badge-box:hover,
 /* SρєαR [15473899] */
 #chat-messages .fromID-15473899 .badge-box:hover,
-#chat-messages  .id-15473899 .badge-box:hover {
+#chat-messages  .id-15473899 .badge-box:hover,
+/* João Victor Firlo [6482416] */
+#chat-messages .fromID-6482416 .badge-box:hover,
+#chat-messages  .id-6482416 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s
@@ -1711,4 +1717,10 @@
 #chat-messages .fromID-15473899 .badge-box i,
 #chat-messages .id-15473899 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/d27f3187e0cfb048811070a2697c179d?s=300);
+}
+
+/* João Victor Firlo [6482416] */
+#chat-messages .fromID-6482416 .badge-box i,
+#chat-messages .id-6482416 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/1e320bc63278b1ebe83f5c37cf875b1f?s=300);
 }
