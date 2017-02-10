@@ -429,7 +429,10 @@
 #chat-messages  .id-6482416 .badge-box i,
 /* Gabirel Zueiro [22573067] */
 #chat-messages .fromID-22573067 .badge-box i,
-#chat-messages  .id-22573067 .badge-box i {
+#chat-messages  .id-22573067 .badge-box i,
+/* Liin3 [24098438] */
+#chat-messages .fromID-24098438 .badge-box i,
+#chat-messages  .id-24098438 .badge-box i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -871,7 +874,10 @@
 #chat-messages  .id-6482416 .badge-box:hover,
 /* Gabirel Zueiro [22573067] */
 #chat-messages .fromID-22573067 .badge-box:hover,
-#chat-messages  .id-22573067 .badge-box:hover {
+#chat-messages  .id-22573067 .badge-box:hover,
+/* Liin3 [24098438] */
+#chat-messages .fromID-24098438 .badge-box:hover,
+#chat-messages  .id-24098438 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s
@@ -1735,4 +1741,10 @@
 #chat-messages .fromID-22573067 .badge-box i,
 #chat-messages .id-22573067 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/cd03dac89d36b8fc9d819bbf71d8630f?s=300);
+}
+
+/* Liin3 [22573067] */
+#chat-messages .fromID-24098438 .badge-box i,
+#chat-messages .id-24098438 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/7476a34f46bf204f94c1636b21d7d231?s=300);
 }
