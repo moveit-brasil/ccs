@@ -432,7 +432,10 @@
 #chat-messages  .id-22573067 .badge-box i,
 /* Liin3 [24098438] */
 #chat-messages .fromID-24098438 .badge-box i,
-#chat-messages  .id-24098438 .badge-box i {
+#chat-messages  .id-24098438 .badge-box i,
+/* Bruno Giuliano [23979672] */
+#chat-messages .fromID-23979672 .badge-box i,
+#chat-messages  .id-23979672 .badge-box i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -877,10 +880,14 @@
 #chat-messages  .id-22573067 .badge-box:hover,
 /* Liin3 [24098438] */
 #chat-messages .fromID-24098438 .badge-box:hover,
-#chat-messages  .id-24098438 .badge-box:hover {
+#chat-messages  .id-24098438 .badge-box:hover,
+/* Bruno Giuliano [23979672] */
+#chat-messages .fromID-23979672 .badge-box:hover,
+#chat-messages  .id-23979672 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s
+        
 }
 
 /* definição DA IMAGEM APENAS */
@@ -1748,3 +1755,10 @@
 #chat-messages .id-24098438 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/7476a34f46bf204f94c1636b21d7d231?s=300);
 }
+
+/* Bruno Giuliano [23979672] */
+#chat-messages .fromID-23979672 .badge-box i,
+#chat-messages .id-23979672 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/0108820f2cbb1dec8364511ce2eb3cdb?s=300);
+}
+
