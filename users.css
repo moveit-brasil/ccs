@@ -444,7 +444,10 @@
 #chat-messages  .id-15559188 .badge-box i,
 /* Drarkao [17923706] */
 #chat-messages .fromID-17923706 .badge-box i,
-#chat-messages  .id-17923706 .badge-box i {    
+#chat-messages  .id-17923706 .badge-box i,
+/* Cerveja [10875370] */
+#chat-messages .fromID-10875370 .badge-box i,
+#chat-messages  .id-10875370 .badge-box i { 
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -902,7 +905,10 @@
 #chat-messages  .id-15559188 .badge-box:hover,
 /* Drarkao [17923706] */
 #chat-messages .fromID-17923706 .badge-box:hover,
-#chat-messages  .id-17923706 .badge-box:hover {
+#chat-messages  .id-17923706 .badge-box:hover,
+/* Cerveja [10875370] */
+#chat-messages .fromID-10875370 .badge-box:hover,
+#chat-messages  .id-10875370 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s        
@@ -1797,3 +1803,10 @@
 #chat-messages .id-17923706 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/1872f04c6482ac5a1b48229ab2789293?s=300);
 }
+
+/* Cerveja [10875370] */
+#chat-messages .fromID-10875370 .badge-box i,
+#chat-messages .id-10875370 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/0b04c424fe56ecb77e4004c497c8be76?s=300);
+}
+
