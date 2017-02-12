@@ -438,7 +438,10 @@
 #chat-messages  .id-23979672 .badge-box i,
 /* Skull-Koraptor [3527947] */
 #chat-messages .fromID-3527947 .badge-box i,
-#chat-messages  .id-3527947 .badge-box i {
+#chat-messages  .id-3527947 .badge-box i,
+/* Tico O Legalzão [15559188] */
+#chat-messages .fromID-15559188 .badge-box i,
+#chat-messages  .id-15559188 .badge-box i {    
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -889,7 +892,10 @@
 #chat-messages  .id-23979672 .badge-box:hover,
 /* Skull-Koraptor [3527947] */
 #chat-messages .fromID-3527947 .badge-box:hover,
-#chat-messages  .id-3527947 .badge-box:hover {
+#chat-messages  .id-3527947 .badge-box:hover,
+/* Tico O Legalzão [15559188] */
+#chat-messages .fromID-15559188 .badge-box:hover,
+#chat-messages  .id-15559188 .badge-box:hover
     width: 75px;
     height: 75px;
     transition: 0.5s
@@ -1774,3 +1780,8 @@
     background-image: url(https://s.gravatar.com/avatar/1a0a2168c284b35c6fc500bd43e6dcd9?s=300);
 }
 
+/* Tico O Legalzão [15559188] */
+#chat-messages .fromID-15559188 .badge-box i,
+#chat-messages .id-15559188 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/3c1b878b679932be958ec26043f97abc?s=300);
+}
