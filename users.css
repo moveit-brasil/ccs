@@ -435,7 +435,10 @@
 #chat-messages  .id-24098438 .badge-box i,
 /* Bruno Giuliano [23979672] */
 #chat-messages .fromID-23979672 .badge-box i,
-#chat-messages  .id-23979672 .badge-box i {
+#chat-messages  .id-23979672 .badge-box i,
+/* Skull-Koraptor [3527947] */
+#chat-messages .fromID-3527947 .badge-box i,
+#chat-messages  .id-3527947 .badge-box i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -883,7 +886,10 @@
 #chat-messages  .id-24098438 .badge-box:hover,
 /* Bruno Giuliano [23979672] */
 #chat-messages .fromID-23979672 .badge-box:hover,
-#chat-messages  .id-23979672 .badge-box:hover {
+#chat-messages  .id-23979672 .badge-box:hover,
+/* Skull-Koraptor [3527947] */
+#chat-messages .fromID-3527947 .badge-box:hover,
+#chat-messages  .id-3527947 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s
@@ -1760,5 +1766,11 @@
 #chat-messages .fromID-23979672 .badge-box i,
 #chat-messages .id-23979672 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/0108820f2cbb1dec8364511ce2eb3cdb?s=300);
+}
+
+/* Skull-Koraptor [3527947] */
+#chat-messages .fromID-3527947 .badge-box i,
+#chat-messages .id-3527947 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/1a0a2168c284b35c6fc500bd43e6dcd9?s=300);
 }
 
