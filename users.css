@@ -453,7 +453,8 @@
     border: none;
     border-radius: 0;
     background-position: initial;
-    background-repeat: no-repeat !important}
+    background-repeat: no-repeat !important
+}
 
 /* definições de CSS em massa para não usar tanta linha de css repetida */
 /* zoom */
@@ -901,11 +902,10 @@
 #chat-messages  .id-15559188 .badge-box:hover,
 /* Drarkao [17923706] */
 #chat-messages .fromID-17923706 .badge-box:hover,
-#chat-messages  .id-17923706 .badge-box:hover
+#chat-messages  .id-17923706 .badge-box:hover {
     width: 75px;
     height: 75px;
-    transition: 0.5s
-        
+    transition: 0.5s        
 }
 
 /* definição DA IMAGEM APENAS */
