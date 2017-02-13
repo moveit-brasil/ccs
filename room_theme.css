@@ -4,6 +4,9 @@
 /* Icones */
 .icon {
     background-image: url("https://moveit-brasil.github.io/ccs/images/icons.png")}
+/* Icone grab dourado lista de usuarios */
+#user-lists .list.room .user .icon-grab {
+background-image: url('http://i.imgur.com/YZvQiFu.png');}
 /* ------------------------------------------------------------------ */
 /* MoveItBot */
 #chat [data-cid^="5394376-"] span.un.clickable {
