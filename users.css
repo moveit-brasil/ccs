@@ -450,7 +450,10 @@
 #chat-messages  .id-10875370 .badge-box i,
 /* Caitano Netto [19569574] */
 #chat-messages .fromID-19569574 .badge-box i,
-#chat-messages  .id-19569574 .badge-box i { 
+#chat-messages  .id-19569574 .badge-box i,
+/* João Klein [3486500] */
+#chat-messages .fromID-3486500 .badge-box i,
+#chat-messages  .id-3486500 .badge-box i { 
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -914,7 +917,10 @@
 #chat-messages  .id-10875370 .badge-box:hover,
 /* Caitano Netto [19569574] */
 #chat-messages .fromID-19569574 .badge-box:hover,
-#chat-messages  .id-19569574 .badge-box:hover {
+#chat-messages  .id-19569574 .badge-box:hover,
+/* João Klein [3486500] */
+#chat-messages .fromID-3486500 .badge-box:hover,
+#chat-messages  .id-3486500 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s        
@@ -1820,4 +1826,10 @@
 #chat-messages .fromID-19569574 .badge-box i,
 #chat-messages .id-19569574 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/0c764ff05d8a5e6829983b2a751c05d0?s=300);
+}
+
+/* João Klein [3486500] */
+#chat-messages .fromID-3486500 .badge-box i,
+#chat-messages .id-3486500 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/58659180eb77e9b03485e32c9ba438c1?s=300);
 }
