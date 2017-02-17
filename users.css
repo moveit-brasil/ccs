@@ -451,9 +451,15 @@
 /* Caitano Netto [19569574] */
 #chat-messages .fromID-19569574 .badge-box i,
 #chat-messages  .id-19569574 .badge-box i,
+/* Valdeir Marcos [21267191] */
+#chat-messages .fromID-21267191 .badge-box i,
+#chat-messages  .id-21267191 .badge-box i, 
 /* João Klein [3486500] */
 #chat-messages .fromID-3486500 .badge-box i,
-#chat-messages  .id-3486500 .badge-box i { 
+#chat-messages  .id-3486500 .badge-box i,
+/* Rodrigo Soares Pereira [3960476] */
+#chat-messages .fromID-3960476 .badge-box i,
+#chat-messages  .id-3960476 .badge-box i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -918,9 +924,15 @@
 /* Caitano Netto [19569574] */
 #chat-messages .fromID-19569574 .badge-box:hover,
 #chat-messages  .id-19569574 .badge-box:hover,
+/* Valdeir Marcos [21267191] */
+#chat-messages .fromID-21267191 .badge-box:hover,
+#chat-messages  .id-21267191 .badge-box:hover, 
 /* João Klein [3486500] */
 #chat-messages .fromID-3486500 .badge-box:hover,
-#chat-messages  .id-3486500 .badge-box:hover {
+#chat-messages  .id-3486500 .badge-box:hover,
+/* Rodrigo Soares Pereira [3960476] */
+#chat-messages .fromID-3960476 .badge-box:hover,
+#chat-messages  .id-3960476 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s        
@@ -1828,8 +1840,20 @@
     background-image: url(https://s.gravatar.com/avatar/0c764ff05d8a5e6829983b2a751c05d0?s=300);
 }
 
+/* Valdeir Marcos [21267191] */
+#chat-messages .fromID-21267191 .badge-box i,
+#chat-messages .id-21267191 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/daadcc975fd5cbf7c9a04175a8765456?s=300);
+}
+
 /* João Klein [3486500] */
 #chat-messages .fromID-3486500 .badge-box i,
 #chat-messages .id-3486500 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/58659180eb77e9b03485e32c9ba438c1?s=300);
+}
+
+/* Rodrigo Soares Pereira [3960476] */
+#chat-messages .fromID-3960476 .badge-box i,
+#chat-messages .id-3960476 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/7cf1896c68c4a2946f7592738709759c?s=300);
 }
