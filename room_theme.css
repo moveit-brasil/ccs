@@ -915,3 +915,7 @@ background: linear-gradient(rgb(90, 67, 20), rgba(74, 56, 16, 0.952941));}
 /* Hover itens de sugestao */
 .dropdown dd .row:hover, .chat-suggestion-item[style='background: rgb(45, 49, 58);'], #search-suggestion .search-suggestion-item.selected, #dialog-restricted-media .row.selected, #dialog-user-role .role-menu .menu ul li:hover {
     background: linear-gradient(hsl(40, 55%, 48%), hsl(40, 64%, 23%)) !important;}
+/* Ary <3 */
+#chat .fromID-3466367 .un,
+#chat .id-3466367 .un {
+color: #e71d71 !important;}
