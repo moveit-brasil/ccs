@@ -919,3 +919,11 @@ background: linear-gradient(rgb(90, 67, 20), rgba(74, 56, 16, 0.952941));}
 #chat .fromID-3466367 .un,
 #chat .id-3466367 .un {
 color: #e71d71 !important;}
+[data-cid^="3466367-"] .msg .from .un {
+    position: relative;
+    left: -1px;
+    padding-left: 34px;
+    background-image: url(http://im.ezgif.com/tmp/ezgif-1-6f7b983603.png);
+    background-repeat: no-repeat;
+    background-position: -1px center;
+    background-size: 32px auto;}
