@@ -919,6 +919,9 @@ background: linear-gradient(rgb(90, 67, 20), rgba(74, 56, 16, 0.952941));}
 #chat .fromID-3466367 .un,
 #chat .id-3466367 .un {
 color: #e71d71 !important;}
+#user-lists .list .fromID-3466367 .name,
+#user-lists .list .id-3466367 .name {
+color: #e71d71 !important;}
 [data-cid^="3466367-"] .msg .from .un {
     position: relative;
     left: -1px;
