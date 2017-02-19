@@ -12,4 +12,4 @@ Dentro deste arquivo, ele tomará conta de carregar os outros 2:
 
 1. ["style.css"](../gh-pages/style.css) 
 
-2. "users.css"
+2. ["users.css"](../gh-pages/users.css)
