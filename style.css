@@ -51,6 +51,9 @@
 	color: #ce9e40;}
 em {
 	color: #f4173b;}
+#chat-messages .badge-box {    
+    transition: 0.5s;
+}
 #footer {
 	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);}
 .social-menu .icon-twitter,.social-menu .icon-facebook {
