@@ -77,6 +77,10 @@ em {
 #dj-button:hover {
 	opacity: 1;
 	transition: all 0.1s;}
+#video-only-dj:hover {
+    background: rgb(9, 9, 9);}
+#video-only-dj {    
+    background: #090909;}
 #vote .crowd-response {
 	background: rgba(255, 255, 255, 0);}
 #vote {
