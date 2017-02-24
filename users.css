@@ -462,7 +462,10 @@
 #chat-messages  .id-3960476 .badge-box i,
 /* 👻👉❝c σ x ı η н α❞👈👻 [24667023] */
 #chat-messages .fromID-24667023 .badge-box i,
-#chat-messages  .id-24667023 .badge-box i {
+#chat-messages  .id-24667023 .badge-box i,
+/* GuiziinMixed [6529844] */
+#chat-messages .fromID-6529844 .badge-box i,
+#chat-messages  .id-6529844 .badge-box i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -938,7 +941,10 @@
 #chat-messages  .id-3960476 .badge-box:hover,
 /* 👻👉❝c σ x ı η н α❞👈👻 [24667023] */
 #chat-messages .fromID-24667023 .badge-box:hover,
-#chat-messages  .id-24667023 .badge-box:hover {
+#chat-messages  .id-24667023 .badge-box:hover,
+/* GuiziinMixed [6529844] */
+#chat-messages .fromID-6529844 .badge-box:hover,
+#chat-messages  .id-6529844 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s        
@@ -1868,4 +1874,10 @@
 #chat-messages .fromID-24667023 .badge-box i,
 #chat-messages .id-24667023 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/4ad5a7b771d941e7312a570e7fab5f19?s=300);
+}
+
+/* GuiziinMixed [6529844] */
+#chat-messages .fromID-6529844 .badge-box i,
+#chat-messages .id-6529844 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/655ffaf0cf72ea6fb26945d767e85e92?s=300);
 }
