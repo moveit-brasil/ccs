@@ -311,13 +311,13 @@ background-position: 0px;}*/
     background: rgba(2, 1, 1, 0.9);}
 /* ------------------------------------------------------------------ */
 /* Botoes deletar/Esconder mensagem chat */
-#chat .delete-button { 
-    background: linear-gradient(hsl(40, 66%, 20%), hsl(40, 67%, 7%));
+.rcs-small-delete { 
+    background: linear-gradient(hsl(40, 66%, 20%), hsl(40, 67%, 7%)) !important;
     border-radius: 8px;} 
-#chat .delete-button:hover { 
-   background: linear-gradient(hsl(0, 77%, 30%), hsl(0, 80%, 19%));
+.rcs-small-delete:hover { 
+   background: linear-gradient(hsl(0, 77%, 30%), hsl(0, 80%, 19%)) !important;
     border-radius: 8px;}
-.radiantimg-delete { 
+.radiantimg-small-delete { 
 background: linear-gradient(hsl(266, 80%, 22%), hsl(269, 81%, 13%)) !important;
 border-radius: 8px;}
 /* ------------------------------------------------------------------ */
