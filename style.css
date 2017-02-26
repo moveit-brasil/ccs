@@ -102,6 +102,5 @@ em {
 	left: auto !important;}
 #user-lists .list.room .user .icon-grab {
 	right: 35px;}
-#friends-button .request-count {    
-    background: #c59840;    
-}
+#footer-user .buttons .button .count, #user-menu .item .count, #user-friends .tab-menu button .count, #friends-button .request-count {
+    background: #c59840;}
