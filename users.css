@@ -465,7 +465,10 @@
 #chat-messages  .id-24667023 .badge-box i,
 /* GuiziinMixed [6529844] */
 #chat-messages .fromID-6529844 .badge-box i,
-#chat-messages  .id-6529844 .badge-box i {
+#chat-messages  .id-6529844 .badge-box i,
+/* Alan Maxwell [631725] */
+#chat-messages .fromID-631725 .badge-box i,
+#chat-messages  .id-631725 .badge-box i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -944,7 +947,10 @@
 #chat-messages  .id-24667023 .badge-box:hover,
 /* GuiziinMixed [6529844] */
 #chat-messages .fromID-6529844 .badge-box:hover,
-#chat-messages  .id-6529844 .badge-box:hover {
+#chat-messages  .id-6529844 .badge-box:hover,
+/* Alan Maxwell [631725] */
+#chat-messages .fromID-631725 .badge-box:hover,
+#chat-messages  .id-631725 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s        
@@ -1880,4 +1886,10 @@
 #chat-messages .fromID-6529844 .badge-box i,
 #chat-messages .id-6529844 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/655ffaf0cf72ea6fb26945d767e85e92?s=300);
+}
+
+/* Alan Maxwell [631725] */
+#chat-messages .fromID-631725 .badge-box i,
+#chat-messages .id-631725 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/f005d8c3def2f637adf1948d13666e17?s=300);
 }
