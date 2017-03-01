@@ -4,7 +4,7 @@
 	"icon": null,
 	"css": "https://moveit-brasil.github.io/ccs/room_theme.css",
 	"rules": {
-		"allowAutorespond": false,
+		"allowAutorespond": true,
 		"allowAutowoot": true,
 		"allowAutojoin": false,
 		"allowAutograb": true,
