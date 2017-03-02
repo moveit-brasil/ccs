@@ -477,7 +477,10 @@
 #chat-messages  .id-4243013 .badge-box i,
 /* lexiegrey [19398824] */
 #chat-messages .fromID-19398824 .badge-box i,
-#chat-messages  .id-19398824 .badge-box i {
+#chat-messages  .id-19398824 .badge-box i,
+/* Bruno Maciel [4073219] */
+#chat-messages .fromID-4073219 .badge-box i,
+#chat-messages  .id-4073219 .badge-box i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -968,7 +971,10 @@
 #chat-messages  .id-4243013 .badge-box:hover,
 /* lexiegrey [19398824] */
 #chat-messages .fromID-19398824 .badge-box:hover,
-#chat-messages  .id-19398824 .badge-box:hover {
+#chat-messages  .id-19398824 .badge-box:hover,
+/* Bruno Maciel [4073219] */
+#chat-messages .fromID-4073219 .badge-box:hover,
+#chat-messages  .id-4073219 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s        
@@ -1928,4 +1934,10 @@
 #chat-messages .fromID-19398824 .badge-box i,
 #chat-messages .id-19398824 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/30ec29c0061528149f59e01eb6fe7e29?s=300);
+}
+
+/* Bruno Maciel [4073219] */
+#chat-messages .fromID-4073219 .badge-box i,
+#chat-messages .id-4073219 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/9181d9e6b01f894825cd4595920415d8?s=300);
 }
