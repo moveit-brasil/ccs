@@ -474,7 +474,10 @@
 #chat-messages  .id-4103387 .badge-box i,
 /* Willian Santos [4243013] */
 #chat-messages .fromID-4243013 .badge-box i,
-#chat-messages  .id-4243013 .badge-box i {
+#chat-messages  .id-4243013 .badge-box i,
+/* lexiegrey [19398824] */
+#chat-messages .fromID-19398824 .badge-box i,
+#chat-messages  .id-19398824 .badge-box i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -962,7 +965,10 @@
 #chat-messages  .id-4103387 .badge-box:hover,
 /* Willian Santos [4243013] */
 #chat-messages .fromID-4243013 .badge-box:hover,
-#chat-messages  .id-4243013 .badge-box:hover {
+#chat-messages  .id-4243013 .badge-box:hover,
+/* lexiegrey [19398824] */
+#chat-messages .fromID-19398824 .badge-box:hover,
+#chat-messages  .id-19398824 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s        
@@ -1916,4 +1922,10 @@
 #chat-messages .fromID-4243013 .badge-box i,
 #chat-messages .id-4243013 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/8c2705d02b8ad6863d16f937ba382e33?s=300);
+}
+
+/* lexiegrey [19398824] */
+#chat-messages .fromID-19398824 .badge-box i,
+#chat-messages .id-19398824 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/30ec29c0061528149f59e01eb6fe7e29?s=300);
 }
