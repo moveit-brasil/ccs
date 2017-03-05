@@ -196,9 +196,9 @@
 /* -Eminem [5552698] */
 #chat-messages .fromID-5552698 .badge-box i,
 #chat-messages  .id-5552698 .badge-box i,
-/* Aelfy [5579813] */
-#chat-messages .fromID-5579813 .badge-box i,
-#chat-messages  .id-5579813 .badge-box i,
+/* Aelfy [4925119] */
+#chat-messages .fromID-4925119 .badge-box i,
+#chat-messages  .id-4925119 .badge-box i,
 /* ladycarol  [5581816] */
 #chat-messages .fromID-5581816 .badge-box i,
 #chat-messages  .id-5581816 .badge-box i,
@@ -696,9 +696,9 @@
 /* -Eminem [5552698] */
 #chat-messages .fromID-5552698 .badge-box:hover,
 #chat-messages .id-5552698 .badge-box:hover,
-/* Aelfy [5579813] */
-#chat-messages .fromID-5579813 .badge-box:hover,
-#chat-messages .id-5579813 .badge-box:hover,
+/* Aelfy [4925119] */
+#chat-messages .fromID-4925119 .badge-box:hover,
+#chat-messages .id-4925119 .badge-box:hover,
 /* ladycarol  [5581816] */
 #chat-messages .fromID-5581816 .badge-box:hover,
 #chat-messages .id-5581816 .badge-box:hover,
@@ -1384,9 +1384,9 @@
     background-image: url(https://s.gravatar.com/avatar/665a4a9192d1514a6821693d3a974c38?s=300);
 }
 
-/* Aelfy [5579813] */
-#chat-messages .fromID-5579813 .badge-box i,
-#chat-messages .id-5579813 .badge-box i {
+/* Aelfy [4925119] */
+#chat-messages .fromID-4925119 .badge-box i,
+#chat-messages .id-4925119 .badge-box i {
     background-image: url(http://i.imgur.com/8G5mWJp.jpg);
 }
 
