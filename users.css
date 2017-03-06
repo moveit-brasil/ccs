@@ -486,7 +486,10 @@
 #chat-messages  .id-5631973 .badge-box i,
 /* Waydson Lamblet [22787160] */
 #chat-messages .fromID-22787160 .badge-box i,
-#chat-messages  .id-22787160 .badge-box i {
+#chat-messages  .id-22787160 .badge-box i,
+/* Luccas_R [24638275] */
+#chat-messages .fromID-24638275 .badge-box i,
+#chat-messages  .id-24638275 .badge-box i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -986,7 +989,10 @@
 #chat-messages  .id-5631973 .badge-box:hover,
 /* Waydson Lamblet [22787160] */
 #chat-messages .fromID-22787160 .badge-box:hover,
-#chat-messages  .id-22787160 .badge-box:hover {
+#chat-messages  .id-22787160 .badge-box:hover,
+/* Luccas_R [24638275] */
+#chat-messages .fromID-24638275 .badge-box:hover,
+#chat-messages  .id-24638275 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s        
@@ -1964,4 +1970,10 @@
 #chat-messages .fromID-22787160 .badge-box i,
 #chat-messages .id-22787160 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/cb07d81a9d1379c32535d5f9e35980b6?s=300);
+}
+
+    /* Luccas_R [24638275] */
+#chat-messages .fromID-24638275 .badge-box i,
+#chat-messages .id-24638275 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/bb1093b1ba2018984f14f2d890c9e0be?s=300);
 }
