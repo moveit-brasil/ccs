@@ -489,7 +489,10 @@
 #chat-messages  .id-22787160 .badge-box i,
 /* Luccas_R [24638275] */
 #chat-messages .fromID-24638275 .badge-box i,
-#chat-messages  .id-24638275 .badge-box i {
+#chat-messages  .id-24638275 .badge-box i,
+/* Eric Tavares [4473901] */
+#chat-messages .fromID-4473901 .badge-box i,
+#chat-messages  .id-4473901 .badge-box i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -992,7 +995,10 @@
 #chat-messages  .id-22787160 .badge-box:hover,
 /* Luccas_R [24638275] */
 #chat-messages .fromID-24638275 .badge-box:hover,
-#chat-messages  .id-24638275 .badge-box:hover {
+#chat-messages  .id-24638275 .badge-box:hover,
+/* Eric Tavares [4473901] */
+#chat-messages .fromID-4473901 .badge-box:hover,
+#chat-messages  .id-4473901 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s        
@@ -1976,4 +1982,10 @@
 #chat-messages .fromID-24638275 .badge-box i,
 #chat-messages .id-24638275 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/bb1093b1ba2018984f14f2d890c9e0be?s=300);
+}
+
+/* Eric Tavares [4473901] */
+#chat-messages .fromID-4473901 .badge-box i,
+#chat-messages .id-4473901 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/3e7a1d6a6e079844db3526c3636e88d1?s=300);
 }
