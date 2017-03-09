@@ -6,7 +6,8 @@
     background-image: url(http://i.imgur.com/eF41C32.png);
     background-repeat: no-repeat;
     background-position: 0px center;
-    background-size: 16px auto;    
+    background-size: 16px auto;
+    left: -2px;
 } 
 
 #user-lists .list .fromID-5401598 .name, #user-lists .list .id-5401598 .name {
@@ -28,7 +29,8 @@
     background-image: url(http://i.imgur.com/h5zZnJ9.png);
     background-repeat: no-repeat;
     background-position: 0px center;
-    background-size: 16px auto;    
+    background-size: 16px auto;
+    left: -2px;
 } 
 
 #user-lists .list .fromID-4080795 .name, #user-lists .list .id-4080795 .name {
