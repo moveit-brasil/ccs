@@ -1,0 +1,19 @@
+[data-cid^="5401598-"] .msg .from .un {
+    position: relative;
+    left: -1px;
+    padding-left: 20px;
+    background-image: url(http://i.imgur.com/xCCj6qv.png);
+    background-repeat: no-repeat;
+    background-position: -1px center;
+    background-size: 17px auto;
+} 
+
+#user-lists .list .fromID-5401598 .name, #user-lists .list .id-5401598 .name {
+    position: relative;
+    left: -1px;
+    padding-left: 34px;
+    background-image: url(http://i.imgur.com/xCCj6qv.png);
+    background-repeat: no-repeat;
+    background-position: 12px center;
+    background-size: 17px auto;
+}
