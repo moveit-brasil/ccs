@@ -1,9 +1,13 @@
-/* dudenha http://i.imgur.com/xCCj6qv.png */
+/* bolo     http://i.imgur.com/eF41C32.png */
+/* gatinho  http://i.imgur.com/xCCj6qv.png */
+/* fone     http://i.imgur.com/h5zZnJ9.png */
+
+/* dudenha */
 
 [data-cid^="5401598-"] .msg .from .un {
     position: relative;
     padding-left: 20px;
-    background-image: url(http://i.imgur.com/eF41C32.png);
+    background-image: url(http://i.imgur.com/xCCj6qv.png);
     background-repeat: no-repeat;
     background-position: 0px center;
     background-size: 16px auto;
@@ -14,7 +18,7 @@
     position: relative;
     left: -1px;
     padding-left: 50px;
-    background-image: url(http://i.imgur.com/eF41C32.png);
+    background-image: url(http://i.imgur.com/xCCj6qv.png);
     background-repeat: no-repeat;
     background-position: 30px center;
     background-size: 16px auto;
