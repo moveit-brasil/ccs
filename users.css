@@ -492,7 +492,10 @@
 #chat-messages  .id-24638275 .badge-box i,
 /* Eric Tavares [4473901] */
 #chat-messages .fromID-4473901 .badge-box i,
-#chat-messages  .id-4473901 .badge-box i {
+#chat-messages  .id-4473901 .badge-box i,
+/* Lux Elementalist 👽 [4732821] */
+#chat-messages .fromID-4732821 .badge-box i,
+#chat-messages  .id-4732821 .badge-box i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -998,7 +1001,10 @@
 #chat-messages  .id-24638275 .badge-box:hover,
 /* Eric Tavares [4473901] */
 #chat-messages .fromID-4473901 .badge-box:hover,
-#chat-messages  .id-4473901 .badge-box:hover {
+#chat-messages  .id-4473901 .badge-box:hover,
+/* Lux Elementalist 👽 [4732821] */
+#chat-messages .fromID-4732821 .badge-box:hover,
+#chat-messages  .id-4732821 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s        
@@ -1988,4 +1994,10 @@
 #chat-messages .fromID-4473901 .badge-box i,
 #chat-messages .id-4473901 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/3e7a1d6a6e079844db3526c3636e88d1?s=300);
+}
+
+/* Lux Elementalist 👽 [4732821] */
+#chat-messages .fromID-4732821 .badge-box i,
+#chat-messages .id-4732821 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/393cd33ef784d45f0731623cca2038e6?s=300);
 }
