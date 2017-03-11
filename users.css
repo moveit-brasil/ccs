@@ -507,10 +507,504 @@
     background-repeat: no-repeat !important
 }
 
+/* definições de CSS em massa para não usar tanta linha de css repetida */
+/* zoom */
 
-/* Avatar Mouse over */
-#chat-messages .from .badge-box:hover,
-#chat-messages .badge-box:hover {
+/* -Edu [1222336] */
+#chat-messages .fromID-1222336 .badge-box:hover,
+#chat-messages .id-1222336 .badge-box:hover,
+/* Awayshift [1380997] */
+#chat-messages .fromID-1380997 .badge-box:hover,
+#chat-messages .id-1380997 .badge-box:hover,
+/* ᑭᕼᕮᒪᒪƗᑭᕮ ᙖᖇ ᕼᑌ3ᕼᑌ3 [3422505] */
+#chat-messages .fromID-3422505 .badge-box:hover,
+#chat-messages .id-3422505 .badge-box:hover,
+/* SpeedFreak [3425138] */
+#chat-messages .fromID-3425138 .badge-box:hover,
+#chat-messages .id-3425138 .badge-box:hover,
+/* Fatumi [3461285] */
+#chat-messages .fromID-3461285 .badge-box:hover,
+#chat-messages .id-3461285 .badge-box:hover,
+/* Arebaba [3466367] */
+#chat-messages .fromID-3466367 .badge-box:hover,
+#chat-messages .id-3466367 .badge-box:hover,
+/* vendedor de droga [3512941] */
+#chat-messages .fromID-3512941 .badge-box:hover,
+#chat-messages .id-3512941 .badge-box:hover,
+/* Mr. Harry Potter [3546433] */
+#chat-messages .fromID-3546433 .badge-box:hover,
+#chat-messages .id-3546433 .badge-box:hover,
+/*  #_τiα ∂α вαℓα ॐ [3557353] */
+#chat-messages .fromID-3557353 .badge-box:hover,
+#chat-messages .id-3557353 .badge-box:hover,
+/* 愛LorDSkrillex愛 [3595719] */
+#chat-messages .fromID-3595719 .badge-box:hover,
+#chat-messages .id-3595719 .badge-box:hover,
+/* Mayumi [3615814] */
+#chat-messages .fromID-3615814 .badge-box:hover,
+#chat-messages .id-3615814 .badge-box:hover,
+/* -Soraka30cmMOLE- [3634240] */
+#chat-messages .fromID-3634240 .badge-box:hover,
+#chat-messages .id-3634240 .badge-box:hover,
+/* QyL [3714585] */
+#chat-messages .fromID-3714585 .badge-box:hover,
+#chat-messages .id-3714585 .badge-box:hover,
+/* -๖ۣۜLαrissαYG  ♤ [3733591] */
+#chat-messages .fromID-3733591 .badge-box:hover,
+#chat-messages .id-3733591 .badge-box:hover,
+/* ▲๖ۣۜDaniel๖ۣۜMcCartney▲ [3742812] */
+#chat-messages .fromID-3742812 .badge-box:hover,
+#chat-messages .id-3742812 .badge-box:hover,
+/* Zol [3810631] */
+#chat-messages .fromID-3810631 .badge-box:hover,
+#chat-messages .id-3810631 .badge-box:hover,
+/* Feluz [3839549] */
+#chat-messages .fromID-3839549 .badge-box:hover,
+#chat-messages .id-3839549 .badge-box:hover,
+/* -|SABOTAGE|- [3851265] */
+#chat-messages .fromID-3851265 .badge-box:hover,
+#chat-messages .id-3851265 .badge-box:hover,
+/* ManoWoods [3851353] */
+#chat-messages .fromID-3851353 .badge-box:hover,
+#chat-messages .id-3851353 .badge-box:hover,
+/* kORPIKLAANI [3878563] */
+#chat-messages .fromID-3878563 .badge-box:hover,
+#chat-messages .id-3878563 .badge-box:hover,
+/* RααяÐ [3914345] */
+#chat-messages .fromID-3914345 .badge-box:hover,
+#chat-messages .id-3914345 .badge-box:hover,
+/* ๖ۜĐﮊ.RedSkull ☊ [3938058] */
+#chat-messages .fromID-3938058 .badge-box:hover,
+#chat-messages .id-3938058 .badge-box:hover,
+/* SmoKingalac [3985954] */
+#chat-messages .fromID-3985954 .badge-box:hover,
+#chat-messages .id-3985954 .badge-box:hover,
+/* EduSL [4023220] */
+#chat-messages .fromID-4023220 .badge-box:hover,
+#chat-messages .id-4023220 .badge-box:hover,
+/* Shadow Slayer [4080795] */
+#chat-messages .fromID-4080795 .badge-box:hover,
+#chat-messages .id-4080795 .badge-box:hover,
+/* Layane  [4083475] */
+#chat-messages .fromID-4083475 .badge-box:hover,
+#chat-messages .id-4083475 .badge-box:hover,
+/* Victo0r [4136235] */
+#chat-messages .fromID-4136235 .badge-box:hover,
+#chat-messages .id-4136235 .badge-box:hover,
+/* mysaddestiny [4179990] */
+#chat-messages .fromID-4179990 .badge-box:hover,
+#chat-messages .id-4179990 .badge-box:hover,
+/* flavibotelho [4256491] */
+#chat-messages .fromID-4256491 .badge-box:hover,
+#chat-messages .id-4256491 .badge-box:hover,
+/* Dolinho_seu_amiguinho [4349239] */
+#chat-messages .fromID-4349239 .badge-box:hover,
+#chat-messages .id-4349239 .badge-box:hover,
+/* VzachPlay [4371581] */
+#chat-messages .fromID-4371581 .badge-box:hover,
+#chat-messages .id-4371581 .badge-box:hover,
+/* Skywɑlker [4376080] */
+#chat-messages .fromID-4376080 .badge-box:hover,
+#chat-messages .id-4376080 .badge-box:hover,
+/* Tagevaldo [4385842] */
+#chat-messages .fromID-4385842 .badge-box:hover,
+#chat-messages .id-4385842 .badge-box:hover,
+/* WIZ [4392853] */
+#chat-messages .fromID-4392853 .badge-box:hover,
+#chat-messages .id-4392853 .badge-box:hover,
+/* • Vıтıи • [4404834] */
+#chat-messages .fromID-4404834 .badge-box:hover,
+#chat-messages .id-4404834 .badge-box:hover,
+/* InderZoca ♠ [4432697] */
+#chat-messages .fromID-4432697 .badge-box:hover,
+#chat-messages .id-4432697 .badge-box:hover,
+/* Drake_Fenrir [4460832] */
+#chat-messages .fromID-4460832 .badge-box:hover,
+#chat-messages .id-4460832 .badge-box:hover,
+/* Stefany Styles [4508056] */
+#chat-messages .fromID-4508056 .badge-box:hover,
+#chat-messages .id-4508056 .badge-box:hover,
+/* Musicube [4523162] */
+#chat-messages .fromID-4523162 .badge-box:hover,
+#chat-messages .id-4523162 .badge-box:hover,
+/* Mr. Mtos [4656127] */
+#chat-messages .fromID-4656127 .badge-box:hover,
+#chat-messages .id-4656127 .badge-box:hover,
+/* IDM UnBoUnD [4767675] */
+#chat-messages .fromID-4767675 .badge-box:hover,
+#chat-messages .id-4767675 .badge-box:hover,
+/* Dj_Zombie_Gamer [4767980] */
+#chat-messages .fromID-4767980 .badge-box:hover,
+#chat-messages .id-4767980 .badge-box:hover,
+/* FeernadoGameerYT [4799567] */
+#chat-messages .fromID-4799567 .badge-box:hover,
+#chat-messages .id-4799567 .badge-box:hover,
+/* 〈 ᐯ ٱ ﾑ 𝕁 Ѧ ர ♰ ۼ 〉 [4807274] */
+#chat-messages .fromID-4807274 .badge-box:hover,
+#chat-messages .id-4807274 .badge-box:hover,
+/* Yαทe [4915184] */
+#chat-messages .fromID-4915184 .badge-box:hover,
+#chat-messages .id-4915184 .badge-box:hover,
+/* Existente ॐ [4926636] */
+#chat-messages .fromID-4926636 .badge-box:hover,
+#chat-messages .id-4926636 .badge-box:hover,
+/* ☥ Kennedy S. ☯ [5005365] */
+#chat-messages .fromID-5005365 .badge-box:hover,
+#chat-messages .id-5005365 .badge-box:hover,
+/* -Freddi⁢e [5007596] */
+#chat-messages .fromID-5007596 .badge-box:hover,
+#chat-messages .id-5007596 .badge-box:hover,
+/* PSG-compro-o-plug.dj [5039941] */
+#chat-messages .fromID-5039941 .badge-box:hover,
+#chat-messages .id-5039941 .badge-box:hover,
+/* johnny277 [5063697] */
+#chat-messages .fromID-5063697 .badge-box:hover,
+#chat-messages .id-5063697 .badge-box:hover,
+/* Maicon Douglas [5083317] */
+#chat-messages .fromID-5083317 .badge-box:hover,
+#chat-messages .id-5083317 .badge-box:hover,
+/* Guc [5134707] */
+#chat-messages .fromID-5134707 .badge-box:hover,
+#chat-messages .id-5134707 .badge-box:hover,
+/* Tugatron [5252480] */
+#chat-messages .fromID-5252480 .badge-box:hover,
+#chat-messages .id-5252480 .badge-box:hover,
+/* Ciɳtiɑ✰ [5266634] */
+#chat-messages .fromID-5266634 .badge-box:hover,
+#chat-messages .id-5266634 .badge-box:hover,
+/* Síd [5288871] */
+#chat-messages .fromID-5288871 .badge-box:hover,
+#chat-messages .id-5288871 .badge-box:hover,
+/* leonard000, [5290742] */
+#chat-messages .fromID-5290742 .badge-box:hover,
+#chat-messages .id-5290742 .badge-box:hover,
+/* Fantz0 [5336641] */
+#chat-messages .fromID-5336641 .badge-box:hover,
+#chat-messages .id-5336641 .badge-box:hover,
+/* tefe [5388131] */
+#chat-messages .fromID-5388131 .badge-box:hover,
+#chat-messages .id-5388131 .badge-box:hover,
+/* Move-It Bot [5394376] */
+#chat-messages .fromID-5394376 .badge-box:hover,
+#chat-messages .id-5394376 .badge-box:hover,
+/* Eduarda Correa [5401598] */
+#chat-messages .fromID-5401598 .badge-box:hover,
+#chat-messages .id-5401598 .badge-box:hover,
+/* Kodabber [5428229] */
+#chat-messages .fromID-5428229 .badge-box:hover,
+#chat-messages .id-5428229 .badge-box:hover,
+/* ReeD_BuuL [5449845] */
+#chat-messages .fromID-5449845 .badge-box:hover,
+#chat-messages .id-5449845 .badge-box:hover,
+/* Maluh [5494760] */
+#chat-messages .fromID-5494760 .badge-box:hover,
+#chat-messages .id-5494760 .badge-box:hover,
+/* Dig_níssima ♥ [5495125] */
+#chat-messages .fromID-5495125 .badge-box:hover,
+#chat-messages .id-5495125 .badge-box:hover,
+/* -Eminem [5552698] */
+#chat-messages .fromID-5552698 .badge-box:hover,
+#chat-messages .id-5552698 .badge-box:hover,
+/* Aelfy [4925119] */
+#chat-messages .fromID-4925119 .badge-box:hover,
+#chat-messages .id-4925119 .badge-box:hover,
+/* ladycarol  [5581816] */
+#chat-messages .fromID-5581816 .badge-box:hover,
+#chat-messages .id-5581816 .badge-box:hover,
+/* tuskas [5594653] */
+#chat-messages .fromID-5594653 .badge-box:hover,
+#chat-messages .id-5594653 .badge-box:hover,
+/* BelaAdormecidaXIV [5671563] */
+#chat-messages .fromID-5671563 .badge-box:hover,
+#chat-messages .id-5671563 .badge-box:hover,
+/* ŁØƦᗰΔ [5682160] */
+#chat-messages .fromID-5682160 .badge-box:hover,
+#chat-messages .id-5682160 .badge-box:hover,
+/* Zeck Brazilian ツ [5726257] */
+#chat-messages .fromID-5726257 .badge-box:hover,
+#chat-messages .id-5726257 .badge-box:hover,
+/* Luquinhas [5765109] */
+#chat-messages .fromID-5765109 .badge-box:hover,
+#chat-messages .id-5765109 .badge-box:hover,
+/* Takahan [5803103] */
+#chat-messages .fromID-5803103 .badge-box:hover,
+#chat-messages .id-5803103 .badge-box:hover,
+/*  ▲☯gคм¡ห¡g☯ ▲ [5887115] */
+#chat-messages .fromID-5887115 .badge-box:hover,
+#chat-messages .id-5887115 .badge-box:hover,
+/* Mσrєɳa [5896399] */
+#chat-messages .fromID-5896399 .badge-box:hover,
+#chat-messages .id-5896399 .badge-box:hover,
+/* Dj_Jonh_Connor [5980440] */
+#chat-messages .fromID-5980440 .badge-box:hover,
+#chat-messages .id-5980440 .badge-box:hover,
+/* gคтσgคтσ Δ [6022680] */
+#chat-messages .fromID-6022680 .badge-box:hover,
+#chat-messages .id-6022680 .badge-box:hover,
+/* Skr1ll3x [6236979] */
+#chat-messages .fromID-6236979 .badge-box:hover,
+#chat-messages .id-6236979 .badge-box:hover,
+/* Psicó [6395057] */
+#chat-messages .fromID-6395057 .badge-box:hover,
+#chat-messages .id-6395057 .badge-box:hover,
+/* Hi im Roops [6444400] */
+#chat-messages .fromID-6444400 .badge-box:hover,
+#chat-messages .id-6444400 .badge-box:hover,
+/* TJ Firlo   [6482416] */
+#chat-messages .fromID-6482416 .badge-box:hover,
+#chat-messages .id-6482416 .badge-box:hover,
+/* -Serj [6508973] */
+#chat-messages .fromID-6508973 .badge-box:hover,
+#chat-messages .id-6508973 .badge-box:hover,
+/* -Branca de Neve- [6511093] */
+#chat-messages .fromID-6511093 .badge-box:hover,
+#chat-messages .id-6511093 .badge-box:hover,
+/* EdnaldoDJ [6578930] */
+#chat-messages .fromID-6578930 .badge-box:hover,
+#chat-messages .id-6578930 .badge-box:hover,
+/* zKaique [7451925] */
+#chat-messages .fromID-7451925 .badge-box:hover,
+#chat-messages .id-7451925 .badge-box:hover,
+/* RafaelEoKrl [8042566] */
+#chat-messages .fromID-8042566 .badge-box:hover,
+#chat-messages .id-8042566 .badge-box:hover,
+/* 4RR0G4NT [9993107] */
+#chat-messages .fromID-9993107 .badge-box:hover,
+#chat-messages .id-9993107 .badge-box:hover,
+/* MidNight- [11334256] */
+#chat-messages .fromID-11334256 .badge-box:hover,
+#chat-messages .id-11334256 .badge-box:hover,
+/* 𝓒𝓾𝔃𝓪𝓸 [12673376] */
+#chat-messages .fromID-12673376 .badge-box:hover,
+#chat-messages .id-12673376 .badge-box:hover,
+/* Pacmanxx [13442483] */
+#chat-messages .fromID-13442483 .badge-box:hover,
+#chat-messages .id-13442483 .badge-box:hover,
+/* nu.clear [13443778] */
+#chat-messages .fromID-13443778 .badge-box:hover,
+#chat-messages .id-13443778 .badge-box:hover,
+/* -Dashing Love  [4925119] */
+#chat-messages .fromID-4925119 .badge-box:hover,
+#chat-messages .id-4925119 .badge-box:hover,
+/* LekinDuTreemBalaＰＪＬ [13478318] */
+#chat-messages .fromID-13478318 .badge-box:hover,
+#chat-messages .id-13478318 .badge-box:hover,
+/* André Amaro [13651874] */
+#chat-messages .fromID-13651874 .badge-box:hover,
+#chat-messages .id-13651874 .badge-box:hover,
+/* ♛Thiago16♛ [13775290] */
+#chat-messages .fromID-13775290 .badge-box:hover,
+#chat-messages .id-13775290 .badge-box:hover,
+/* VítorRC [14160670] */
+#chat-messages .fromID-14160670 .badge-box:hover,
+#chat-messages .id-14160670 .badge-box:hover,
+/* _ThomasFr [14766508] */
+#chat-messages .fromID-14766508 .badge-box:hover,
+#chat-messages .id-14766508 .badge-box:hover,
+/* Pãozinho7 [15511589] */
+#chat-messages .fromID-15511589 .badge-box:hover,
+#chat-messages .id-15511589 .badge-box:hover,
+/* fentyzinho [15522304] */
+#chat-messages .fromID-15522304 .badge-box:hover,
+#chat-messages .id-15522304 .badge-box:hover,
+/* LucasCG [15655764] */
+#chat-messages .fromID-15655764 .badge-box:hover,
+#chat-messages .id-15655764 .badge-box:hover,
+/* -Malévola- [15957772] */
+#chat-messages .fromID-15957772 .badge-box:hover,
+#chat-messages .id-15957772 .badge-box:hover,
+/* zOverKillz [16349909] */
+#chat-messages .fromID-16349909 .badge-box:hover,
+#chat-messages .id-16349909 .badge-box:hover,
+/* Cati Pink [16913963] *
+#chat-messages .fromID-16913963 .badge-box:hover,
+#chat-messages .id-16913963 .badge-box:hover,
+/* Tatieleツ [16967942] */
+#chat-messages .fromID-16967942 .badge-box:hover,
+#chat-messages .id-16967942 .badge-box:hover,
+/* King - YT [17058370] */
+#chat-messages .fromID-17058370 .badge-box:hover,
+#chat-messages .id-17058370 .badge-box:hover,
+/* jvnlxxxxw [17187228] */
+#chat-messages .fromID-17187228 .badge-box:hover,
+#chat-messages .id-17187228 .badge-box:hover,
+/* Finn_Games [17250608] */
+#chat-messages .fromID-17250608 .badge-box:hover,
+#chat-messages .id-17250608 .badge-box:hover,
+/* Capusso [17574893] */
+#chat-messages .fromID-17574893 .badge-box:hover,
+#chat-messages .id-17574893 .badge-box:hover,
+/* MuskOTotoso [18332142] */
+#chat-messages .fromID-18332142 .badge-box:hover,
+#chat-messages .id-18332142 .badge-box:hover,
+/* Loralie [18769207] */
+#chat-messages .fromID-18769207 .badge-box:hover,
+#chat-messages .id-18769207 .badge-box:hover,
+/* alfredo1559 [18879409] */
+#chat-messages .fromID-18879409 .badge-box:hover,
+#chat-messages .id-18879409 .badge-box:hover,
+/* SEDUCAO [18951868] */
+#chat-messages .fromID-18951868 .badge-box:hover,
+#chat-messages .id-18951868 .badge-box:hover,
+/* AlyciaDebnam [19312558] */
+#chat-messages .fromID-19312558 .badge-box:hover,
+#chat-messages .id-19312558 .badge-box:hover,
+/* NeskeD [19407246] */
+#chat-messages .fromID-19407246 .badge-box:hover,
+#chat-messages .id-19407246 .badge-box:hover,
+/* LicoForever [19423455] */
+#chat-messages .fromID-19423455 .badge-box:hover,
+#chat-messages .id-19423455 .badge-box:hover,
+/* Invitations [19647606] */
+#chat-messages .fromID-19647606 .badge-box:hover,
+#chat-messages .id-19647606 .badge-box:hover,
+/* Loba Lopez [19649498] */
+#chat-messages .fromID-19649498 .badge-box:hover,
+#chat-messages .id-19649498 .badge-box:hover,
+/* Invitation [19711306] */
+#chat-messages .fromID-19711306 .badge-box:hover,
+#chat-messages .id-19711306 .badge-box:hover,
+/* TioSub DJ [19718960] */
+#chat-messages .fromID-19718960 .badge-box:hover,
+#chat-messages .id-19718960 .badge-box:hover,
+/* AbiaAndrezza [20135448] */
+#chat-messages .fromID-20135448 .badge-box:hover,
+#chat-messages .id-20135448 .badge-box:hover,
+/* Gabrezzzzzzzz [20219092] */
+#chat-messages .fromID-20219092 .badge-box:hover,
+#chat-messages .id-20219092 .badge-box:hover,
+/* LollyGothabilly [20386102] */
+#chat-messages .fromID-20386102 .badge-box:hover,
+#chat-messages .id-20386102 .badge-box:hover,
+/* SelenaGolding [20571629] */
+#chat-messages .fromID-20571629 .badge-box:hover,
+#chat-messages .id-20571629 .badge-box:hover,
+/* neverSTOOP [20920478] */
+#chat-messages .fromID-20920478 .badge-box:hover,
+#chat-messages .id-20920478 .badge-box:hover,
+/* Kaiser II [20948955] */
+#chat-messages .fromID-20948955 .badge-box:hover,
+#chat-messages .id-20948955 .badge-box:hover,
+/* juregs [20989946] */
+#chat-messages .fromID-20989946 .badge-box:hover,
+#chat-messages .id-20989946 .badge-box:hover,
+/* Demoniia [21755082] */
+#chat-messages .fromID-21755082 .badge-box:hover,
+#chat-messages .id-21755082 .badge-box:hover,
+/* XXdos12 [22156816] */
+#chat-messages .fromID-22156816 .badge-box:hover,
+#chat-messages .id-22156816 .badge-box:hover,
+/* MlkRetardado [22377137] */
+#chat-messages .fromID-22377137 .badge-box:hover,
+#chat-messages  .id-22377137 .badge-box:hover,
+/* poisonsociety [6100629] */
+#chat-messages .fromID-6100629 .badge-box:hover,
+#chat-messages  .id-6100629 .badge-box:hover,
+/* _Cσиєcт Gamer_ [6263878] */
+#chat-messages .fromID-6263878 .badge-box:hover,
+#chat-messages  .id-6263878 .badge-box:hover,
+/* iamikaizo [5076690] */
+#chat-messages .fromID-5076690 .badge-box:hover,
+#chat-messages  .id-5076690 .badge-box:hover,
+/* TheWick3d [23528942] */
+#chat-messages .fromID-23528942 .badge-box:hover,
+#chat-messages  .id-23528942 .badge-box:hover,
+/* Magrelo Drama [6302310] */
+#chat-messages .fromID-6302310 .badge-box:hover,
+#chat-messages  .id-6302310 .badge-box:hover,
+/* Gabriela Ferreira(Gabs_f1) [15418744] */
+#chat-messages .fromID-15418744 .badge-box:hover,
+#chat-messages  .id-15418744 .badge-box:hover,
+/* Cristiano Malko () [18957332] */
+#chat-messages .fromID-18957332 .badge-box:hover,
+#chat-messages  .id-18957332 .badge-box:hover,
+/* Pedro Lucas  () [21378981] */
+#chat-messages .fromID-21378981 .badge-box:hover,
+#chat-messages  .id-21378981 .badge-box:hover,
+/* Antonio Carlos de Oliveira  () [4453737] */
+#chat-messages .fromID-4453737 .badge-box:hover,
+#chat-messages  .id-4453737 .badge-box:hover,
+/* Gaby_de_MottaS2 [23894284] */
+#chat-messages .fromID-23894284 .badge-box:hover,
+#chat-messages  .id-23894284 .badge-box:hover,
+/* LisandraLisy [23648920] */
+#chat-messages .fromID-23648920 .badge-box:hover,
+#chat-messages  .id-23648920 .badge-box:hover,
+/* SρєαR [15473899] */
+#chat-messages .fromID-15473899 .badge-box:hover,
+#chat-messages  .id-15473899 .badge-box:hover,
+/* João Victor Firlo [6482416] */
+#chat-messages .fromID-6482416 .badge-box:hover,
+#chat-messages  .id-6482416 .badge-box:hover,
+/* Gabirel Zueiro [22573067] */
+#chat-messages .fromID-22573067 .badge-box:hover,
+#chat-messages  .id-22573067 .badge-box:hover,
+/* Liin3 [24098438] */
+#chat-messages .fromID-24098438 .badge-box:hover,
+#chat-messages  .id-24098438 .badge-box:hover,
+/* Bruno Giuliano [23979672] */
+#chat-messages .fromID-23979672 .badge-box:hover,
+#chat-messages  .id-23979672 .badge-box:hover,
+/* Skull-Koraptor [3527947] */
+#chat-messages .fromID-3527947 .badge-box:hover,
+#chat-messages  .id-3527947 .badge-box:hover,
+/* Tico O Legalzão [15559188] */
+#chat-messages .fromID-15559188 .badge-box:hover,
+#chat-messages  .id-15559188 .badge-box:hover,
+/* Drarkao [17923706] */
+#chat-messages .fromID-17923706 .badge-box:hover,
+#chat-messages  .id-17923706 .badge-box:hover,
+/* Cerveja [10875370] */
+#chat-messages .fromID-10875370 .badge-box:hover,
+#chat-messages  .id-10875370 .badge-box:hover,
+/* Caitano Netto [19569574] */
+#chat-messages .fromID-19569574 .badge-box:hover,
+#chat-messages  .id-19569574 .badge-box:hover,
+/* Valdeir Marcos [21267191] */
+#chat-messages .fromID-21267191 .badge-box:hover,
+#chat-messages  .id-21267191 .badge-box:hover, 
+/* João Klein [3486500] */
+#chat-messages .fromID-3486500 .badge-box:hover,
+#chat-messages  .id-3486500 .badge-box:hover,
+/* Rodrigo Soares Pereira [3960476] */
+#chat-messages .fromID-3960476 .badge-box:hover,
+#chat-messages  .id-3960476 .badge-box:hover,
+/* 👻👉❝c σ x ı η н α❞👈👻 [24667023] */
+#chat-messages .fromID-24667023 .badge-box:hover,
+#chat-messages  .id-24667023 .badge-box:hover,
+/* GuiziinMixed [6529844] */
+#chat-messages .fromID-6529844 .badge-box:hover,
+#chat-messages  .id-6529844 .badge-box:hover,
+/* Alan Maxwell [631725] */
+#chat-messages .fromID-631725 .badge-box:hover,
+#chat-messages  .id-631725 .badge-box:hover,
+/* Pitty Ribeiro [4103387] */
+#chat-messages .fromID-4103387 .badge-box:hover,
+#chat-messages  .id-4103387 .badge-box:hover,
+/* Willian Santos [4243013] */
+#chat-messages .fromID-4243013 .badge-box:hover,
+#chat-messages  .id-4243013 .badge-box:hover,
+/* lexiegrey [19398824] */
+#chat-messages .fromID-19398824 .badge-box:hover,
+#chat-messages  .id-19398824 .badge-box:hover,
+/* Bruno Maciel [4073219] */
+#chat-messages .fromID-4073219 .badge-box:hover,
+#chat-messages  .id-4073219 .badge-box:hover, 
+/* Lucas Rodrigues Gomes [5631973] */
+#chat-messages .fromID-5631973 .badge-box:hover,
+#chat-messages  .id-5631973 .badge-box:hover,
+/* Waydson Lamblet [22787160] */
+#chat-messages .fromID-22787160 .badge-box:hover,
+#chat-messages  .id-22787160 .badge-box:hover,
+/* Luccas_R [24638275] */
+#chat-messages .fromID-24638275 .badge-box:hover,
+#chat-messages  .id-24638275 .badge-box:hover,
+/* Eric Tavares [4473901] */
+#chat-messages .fromID-4473901 .badge-box:hover,
+#chat-messages  .id-4473901 .badge-box:hover,
+/* Lux Elementalist 👽 [4732821] */
+#chat-messages .fromID-4732821 .badge-box:hover,
+#chat-messages  .id-4732821 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s        
