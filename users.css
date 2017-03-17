@@ -495,7 +495,10 @@
 #chat-messages  .id-4473901 .badge-box i,
 /* Lux Elementalist 👽 [4732821] */
 #chat-messages .fromID-4732821 .badge-box i,
-#chat-messages  .id-4732821 .badge-box i {
+#chat-messages  .id-4732821 .badge-box i,
+/* Ikaro Skillet Santos [24030524] */
+#chat-messages .fromID-24030524 .badge-box i,
+#chat-messages  .id-24030524 .badge-box i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -1004,7 +1007,10 @@
 #chat-messages  .id-4473901 .badge-box:hover,
 /* Lux Elementalist 👽 [4732821] */
 #chat-messages .fromID-4732821 .badge-box:hover,
-#chat-messages  .id-4732821 .badge-box:hover {
+#chat-messages  .id-4732821 .badge-box:hover, 
+/* Ikaro Skillet Santos [24030524] */
+#chat-messages .fromID-24030524 .badge-box:hover,
+#chat-messages  .id-24030524 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s        
@@ -2000,4 +2006,10 @@
 #chat-messages .fromID-4732821 .badge-box i,
 #chat-messages .id-4732821 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/393cd33ef784d45f0731623cca2038e6?s=300);
+}
+
+/* Ikaro Skillet Santos [24030524] */
+#chat-messages .fromID-24030524 .badge-box i,
+#chat-messages .id-24030524 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/5f09af6da682e7cc41f33f90a4b1aea5?s=300);
 }
