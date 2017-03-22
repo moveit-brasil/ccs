@@ -501,7 +501,10 @@
 #chat-messages  .id-24030524 .badge-box i,
 /* Dig Moore [25084567] */
 #chat-messages .fromID-25084567 .badge-box i,
-#chat-messages  .id-25084567 .badge-box i {
+#chat-messages  .id-25084567 .badge-box i,
+/* Gabriel Palazzi [20574971] */
+#chat-messages .fromID-20574971 .badge-box i,
+#chat-messages  .id-20574971 .badge-box i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -1016,7 +1019,10 @@
 #chat-messages  .id-24030524 .badge-box:hover,
 /* Dig Moore [25084567] */
 #chat-messages .fromID-25084567 .badge-box:hover,
-#chat-messages  .id-25084567 .badge-box:hover {
+#chat-messages  .id-25084567 .badge-box:hover, 
+/* Gabriel Palazzi [20574971] */
+#chat-messages .fromID-20574971 .badge-box:hover,
+#chat-messages  .id-20574971 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s        
@@ -2023,5 +2029,11 @@
 /* Dig Moore [25084567] */
 #chat-messages .fromID-25084567 .badge-box i,
 #chat-messages .id-25084567 .badge-box i {
+    background-image: url(https://s.gravatar.com/avatar/66dada2a5ac9daab4bd172edad411690?s=300);
+}
+
+/* Gabriel Palazzi [20574971] */
+#chat-messages .fromID-20574971 .badge-box i,
+#chat-messages .id-20574971 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/66dada2a5ac9daab4bd172edad411690?s=300);
 }
