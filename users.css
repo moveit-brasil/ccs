@@ -514,9 +514,9 @@
 /* Alastor Mad-Eye Moody [24293017] */
 #chat-messages .fromID-24293017 .badge-box i,
 #chat-messages  .id-24293017 .badge-box i, 
-/* Iago Guida Costa [25793831] */
-#chat-messages .fromID-25793831 .badge-box i,
-#chat-messages  .id-25793831 .badge-box i {
+/* Iago Guida Costa [20231508] */
+#chat-messages .fromID-20231508 .badge-box i,
+#chat-messages  .id-20231508 .badge-box i {
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -1044,9 +1044,9 @@
 /* Alastor Mad-Eye Moody [24293017] */
 #chat-messages .fromID-24293017 .badge-box:hover,
 #chat-messages  .id-24293017 .badge-box:hover,
-/* Iago Guida Costa [25793831] */
-#chat-messages .fromID-25793831 .badge-box:hover,
-#chat-messages  .id-25793831 .badge-box:hover {
+/* Iago Guida Costa [20231508] */
+#chat-messages .fromID-20231508 .badge-box:hover,
+#chat-messages  .id-20231508 .badge-box:hover {
     width: 75px;
     height: 75px;
     transition: 0.5s        
@@ -2080,8 +2080,8 @@
     background-image: url(https://s.gravatar.com/avatar/794bc180402146536cf43c4b90369459?s=300);
 }
 
-/* Iago Guida Costa [25793831] */
-#chat-messages .fromID-25793831 .badge-box i,
-#chat-messages .id-25793831 .badge-box i {
+/* Iago Guida Costa [20231508] */
+#chat-messages .fromID-20231508 .badge-box i,
+#chat-messages .id-20231508 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/db221d7b802d308f1910dd9f7426de85?s=300);
 }
