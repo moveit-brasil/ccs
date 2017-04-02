@@ -3,15 +3,16 @@ boloniver = http://i.imgur.com/eF41C32.png
 gatinho = http://i.imgur.com/xCCj6qv.png
 fone = http://i.imgur.com/h5zZnJ9.png
 marshmello = http://i.imgur.com/eNVnEHu.png
+alan walker = http://i.imgur.com/szsFh9i.png
 */
 
 
-/* dudenha 
+/* dudenha */
 
 [data-cid^="5401598-"] .msg .from .un {
     position: relative;
     padding-left: 20px;
-    background-image: url(http://i.imgur.com/xCCj6qv.png);
+    background-image: url(http://i.imgur.com/szsFh9i.png);
     background-repeat: no-repeat;
     background-position: 0px center;
     background-size: 16px auto;
@@ -22,7 +23,7 @@ marshmello = http://i.imgur.com/eNVnEHu.png
     position: relative;
     left: -1px;
     padding-left: 50px;
-    background-image: url(http://i.imgur.com/xCCj6qv.png);
+    background-image: url(http://i.imgur.com/szsFh9i.png);
     background-repeat: no-repeat;
     background-position: 30px center;
     background-size: 16px auto;
