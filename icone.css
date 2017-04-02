@@ -4,6 +4,7 @@ gatinho = http://i.imgur.com/xCCj6qv.png
 fone = http://i.imgur.com/h5zZnJ9.png
 marshmello = http://i.imgur.com/eNVnEHu.png
 marshmello2 = http://i.imgur.com/953K9js.png
+marshmello3 = http://i.imgur.com/da6G75A.png
 alan walker = http://i.imgur.com/szsFh9i.png
 alan walker2 = http://i.imgur.com/dWLt0mW.png
 anime1 = http://i.imgur.com/u0y9MgM.png
@@ -40,7 +41,7 @@ anime3 = http://i.imgur.com/mWLfhdY.png
 [data-cid^="4080795-"] .msg .from .un {
     position: relative;
     padding-left: 20px;
-    background-image: url(http://i.imgur.com/953K9js.png);
+    background-image: url(http://i.imgur.com/da6G75A.png);
     background-repeat: no-repeat;
     background-position: 0px center;
     background-size: 16px auto;
@@ -51,7 +52,7 @@ anime3 = http://i.imgur.com/mWLfhdY.png
     position: relative;
     left: -1px;
     padding-left: 50px;
-    background-image: url(http://i.imgur.com/953K9js.png);
+    background-image: url(http://i.imgur.com/da6G75A.png);
     background-repeat: no-repeat;
     background-position: 30px center;
     background-size: 16px auto;
