@@ -10,6 +10,7 @@ alan walker2 = http://i.imgur.com/dWLt0mW.png
 anime1 = http://i.imgur.com/u0y9MgM.png
 anime2 = http://i.imgur.com/dKBWIoK.png
 anime3 = http://i.imgur.com/mWLfhdY.png
+martingarrix = http://i.imgur.com/XMDn5Mc.png
 */
 
 
@@ -41,7 +42,7 @@ anime3 = http://i.imgur.com/mWLfhdY.png
 [data-cid^="4080795-"] .msg .from .un {
     position: relative;
     padding-left: 20px;
-    background-image: url(http://i.imgur.com/da6G75A.png);
+    background-image: url(http://i.imgur.com/XMDn5Mc.png);
     background-repeat: no-repeat;
     background-position: 0px center;
     background-size: 16px auto;
@@ -52,7 +53,7 @@ anime3 = http://i.imgur.com/mWLfhdY.png
     position: relative;
     left: -1px;
     padding-left: 50px;
-    background-image: url(http://i.imgur.com/da6G75A.png);
+    background-image: url(http://i.imgur.com/XMDn5Mc.png);
     background-repeat: no-repeat;
     background-position: 30px center;
     background-size: 16px auto;
