@@ -38,7 +38,7 @@ anime2 = http://i.imgur.com/dKBWIoK.png
 [data-cid^="4080795-"] .msg .from .un {
     position: relative;
     padding-left: 20px;
-    background-image: url(http://i.imgur.com/u0y9MgM.png);
+    background-image: url(http://i.imgur.com/eNVnEHu.png);
     background-repeat: no-repeat;
     background-position: 0px center;
     background-size: 16px auto;
@@ -49,32 +49,10 @@ anime2 = http://i.imgur.com/dKBWIoK.png
     position: relative;
     left: -1px;
     padding-left: 50px;
-    background-image: url(http://i.imgur.com/u0y9MgM.png);
+    background-image: url(http://i.imgur.com/eNVnEHu.png);
     background-repeat: no-repeat;
     background-position: 30px center;
     background-size: 16px auto;
     padding-top: 2px;
 }
 
-/* shadow */ 
-
-[data-cid^="4080795-"] .msg .from .un {
-    position: relative;
-    padding-left: 20px;
-    background-image: url(http://i.imgur.com/dKBWIoK.png);
-    background-repeat: no-repeat;
-    background-position: 0px center;
-    background-size: 16px auto;
-    left: -2px;
-} 
-
-#user-lists .list .fromID-4080795 .name, #user-lists .list .id-4080795 .name {
-    position: relative;
-    left: -1px;
-    padding-left: 50px;
-    background-image: url(http://i.imgur.com/dKBWIoK.png);
-    background-repeat: no-repeat;
-    background-position: 30px center;
-    background-size: 16px auto;
-    padding-top: 2px;
-}
