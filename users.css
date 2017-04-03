@@ -445,7 +445,7 @@
 /* Drarkao [17923706] */
 #chat-messages .fromID-17923706 .badge-box i,
 #chat-messages  .id-17923706 .badge-box i,
-/* Cerveja [10875370] */
+/* Cerveja [10875370] *
 #chat-messages .fromID-10875370 .badge-box i,
 #chat-messages  .id-10875370 .badge-box i,
 /* Caitano Netto [19569574] */
@@ -975,7 +975,7 @@
 /* Drarkao [17923706] */
 #chat-messages .fromID-17923706 .badge-box:hover,
 #chat-messages  .id-17923706 .badge-box:hover,
-/* Cerveja [10875370] */
+/* Cerveja [10875370] *
 #chat-messages .fromID-10875370 .badge-box:hover,
 #chat-messages  .id-10875370 .badge-box:hover,
 /* Caitano Netto [19569574] */
@@ -1942,7 +1942,7 @@
     background-image: url(https://s.gravatar.com/avatar/1872f04c6482ac5a1b48229ab2789293?s=300);
 }
 
-/* Cerveja [10875370] */
+/* Cerveja [10875370] *
 #chat-messages .fromID-10875370 .badge-box i,
 #chat-messages .id-10875370 .badge-box i {
     background-image: url(https://s.gravatar.com/avatar/0b04c424fe56ecb77e4004c497c8be76?s=300);
