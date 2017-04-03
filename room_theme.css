@@ -919,6 +919,24 @@ background: linear-gradient(rgb(90, 67, 20), rgba(74, 56, 16, 0.952941));}
 /* Hover itens de sugestao */
 .dropdown dd .row:hover, .chat-suggestion-item[style='background: rgb(45, 49, 58);'], #search-suggestion .search-suggestion-item.selected, #dialog-restricted-media .row.selected, #dialog-user-role .role-menu .menu ul li:hover {
     background: linear-gradient(hsl(40, 55%, 48%), hsl(40, 64%, 23%)) !important;}
+/* Correção posição  de logo da Google Play e App Store do painel lateral com RCS */
+#app-menu .android-badge {
+    width: 131px;
+    height: 45px;
+    margin-top: -7px;
+    background: url(http://i.imgur.com/YsmldkG.png) no-repeat;
+    background-size: 120px 40px;
+}
+#app-menu .iphone-badge {
+    width: 131px;
+    height: 45px;
+    margin-top: -7px;
+    background: url(http://i.imgur.com/prBCU7r.png) no-repeat;
+    background-size: 120px 40px;
+}
+
+#app-menu .list .rcsunload {
+    height: 45px !important;
 /* Ary <3
 #chat .fromID-3466367 .un,
 #chat .id-3466367 .un {
