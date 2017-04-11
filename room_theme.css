@@ -2,6 +2,11 @@
 @import url("https://moveitbrasil.com.br/users/");
 @import url("https://moveitbrasil.com.br/niver-icone/");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:500");
+
+.radiantemote {
+    max-width: 180px !important;
+    max-height: 180px !important;    
+}
 /* Icones */
 .icon {
     background-image: url("https://moveit-brasil.github.io/ccs/images/icons.png")}
