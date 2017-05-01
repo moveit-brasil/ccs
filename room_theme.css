@@ -21,8 +21,8 @@ background-image: url('http://i.imgur.com/YZvQiFu.png');}
 #chat [data-cid^="5394376-"] span.un.clickable {
     color: rgba(190, 145, 19, 1) !important;}
 #chat [data-cid^="5394376-"].emote {
-    background: rgba(51, 46, 48, 0.58) !important;
-    border-left: rgba(134, 114, 39, 0.49) 3px solid !important;}
+    background: rgba(196, 152, 64, 0.2) !important;
+    border-left: rgb(197, 152, 64) 3px solid !important; }
 #chat [data-cid^="5394376-"].emote .timestamp {
     color: #A993C7 !important;}
 #chat [data-cid^="5394376-"].emote .text {
