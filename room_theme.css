@@ -3,6 +3,9 @@
 @import url("https://moveitbrasil.com.br/niver-icone/");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:500");
 
+#chat .mention.is-dj:nth-child(2n+1), #chat .mention.is-staff:nth-child(2n+1) {
+background: linear-gradient(135deg,rgb(172, 118, 255) 1%,rgba(172, 118, 255, 0.3) 10%,#111317 90%) !important;
+}
 .radiantemote {
     max-width: 270px !important;
     max-height: 180px !important;
