@@ -41,9 +41,10 @@
 	-o-animation:fadein 0.25s;
 	animation:fadein 0.25s;}
 #chat .mention {
-	font-weight: 700;
-	/*padding-left: 25px;*/
-	border-left: #7681FF 3px solid;}
+    font-weight: 700;
+    /* padding-left: 25px; */
+    border: #7681FF 1px solid;
+}
 #chat-messages .emote .icon {
 	/*left: 4px;*/}
 #chat .emote .text {
