@@ -292,7 +292,8 @@ background-position: 0px;}*/
 #chat-messages .text {
     font-family: 'Ubuntu', sans-serif;
     font-size: 13px;
-    line-height: 20px;}
+    line-height: 20px;
+    min-height: 55px;}
 #chat .from {
     position: relative;
     margin-bottom: 3px;
