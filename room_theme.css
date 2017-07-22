@@ -83,8 +83,7 @@ background-image: url('http://i.imgur.com/YZvQiFu.png');}
 #vote .top {
     background: rgba(34, 34, 36, 0.4) !important;}
 #room .app-right {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.70) 0, rgba(0, 0, 0, 1) 100%);
-    width: 390px !important;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.70) 0, rgba(0, 0, 0, 1) 100%);    
 }
 #room-host,
 #room-name {
@@ -292,8 +291,7 @@ background-position: 0px;}*/
 #chat-messages .text {
     font-family: 'Ubuntu', sans-serif;
     font-size: 13px;
-    line-height: 20px;
-    min-height: 55px;}
+    line-height: 20px;}
 #chat .from {
     position: relative;
     margin-bottom: 3px;
