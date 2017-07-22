@@ -84,7 +84,7 @@ background-image: url('http://i.imgur.com/YZvQiFu.png');}
     background: rgba(34, 34, 36, 0.4) !important;}
 #room .app-right {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.70) 0, rgba(0, 0, 0, 1) 100%);
-    width: 390px;
+    width: 390px !important;
 }
 #room-host,
 #room-name {
