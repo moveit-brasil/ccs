@@ -764,8 +764,8 @@ div.level.earned.ep .label {
     border-color: #05abe4 !important;}
 #user-rollover.role-dj .thumb {
     border-color: #7936e8 !important;}
-#user-rollover.role-user .thumb {
-    border-color: #007a5a !important;}
+/*#user-rollover.role-user .thumb {
+    border-color: #007a5a !important;}*/
 /* ------------------------------------------------------------------ */
 /* Barra de pedidos de amizade */
 .app-right .friends .header {
