@@ -23,8 +23,8 @@
 		"rdj": "#7936e8",
 		"subscriber": "#c59840",
 		"silversubscriber": "#8694b2",
-		"friend": "#007a5a",
-		"user": "#007a5a"
+		"friend": "",
+		"user": ""
 	},
 	"images": {
 		"background": "https://moveit-brasil.github.io/ccs/images/background.jpg",
