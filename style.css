@@ -8,6 +8,9 @@ i.icon.icon-chat-manager, span.name {
 i.icon.icon-chat-promoter, .is-promoter .name {
     color: #1abc9c !important;
 }
+i.icon.icon-chat-promoter, span.name {
+    color: #1abc9c !important;
+}
 #user-lists .list.staff .group {
 	background: linear-gradient(to right,rgba(0, 0, 0, 0) 0,rgba(0, 0, 0, 1) 100%) !important;}
 #footer {
