@@ -154,15 +154,13 @@ background-position: 0px;}*/
 #dj-button {
     border-radius: 50px 10px 10px 50px;
     background: #0b0d0f;}
-#grab .bottom, #grab.selected {
-    background: #ba8f2b !important;
-}
 #woot .bottom,
 #woot.selected {
     background: #25b961 !important;}
 #grab .bottom,
 #grab.selected {
-    background: #000000 !important;}
+    background: #ba8f2b !important;
+}
 #meh .bottom,
 #meh.selected {
     background: #ce1937 !important;}
