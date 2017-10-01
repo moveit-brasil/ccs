@@ -4,7 +4,9 @@
 i.icon.icon-chat-manager, span.name {
     color: #BE9113 !important;
 }
-
+i.icon.icon-chat-subscriber, icon-chat-manager, span.name {
+    color: #c09400 !important;
+}
 i.icon.icon-chat-promoter, .is-promoter .name {
     color: #1abc9c !important;
 }
