@@ -354,6 +354,8 @@ border-radius: 8px;}
 /* COORDENADOR */
 #user-lists .group.manager {
     color: #1abc9c;}
+#user-lists .group.manager .icon-chat-subscriber {
+    color: #1abc9c;}
 #user-lists .group.manager ~ .user span,
 #dialog-user-role .role-menu .menu ul .manager span {
     color: #1abc9c !important;}
