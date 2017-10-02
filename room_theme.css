@@ -353,14 +353,14 @@ border-radius: 8px;}
 /* ------------------------------------------------------------------ */
 /* COORDENADOR */
 #user-lists .group.manager {
-    color: #BE9113;}
+    color: #1abc9c;}
 #user-lists .group.manager ~ .user span,
 #dialog-user-role .role-menu .menu ul .manager span {
-    color: #BE9113 !important;}
+    color: #1abc9c !important;}
 .icon-chat-manager + span,
 #user-lists .group.manager ~ .user span,
 #dialog-user-role .role-menu .menu ul .manager span {
-    color: #BE9113 !important;}
+    color: #1abc9c !important;}
 /* ------------------------------------------------------------------ */
 /* SEGURANÇA */
 #user-lists .group.bouncer {
