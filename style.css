@@ -1,10 +1,6 @@
 #chat .from.promoter .un {
     color: #1abc9c !important;
 }
-i.icon.icon-chat-manager, span.name {
-    color: #1abc9c !important;
-}
-
 i.icon.icon-chat-promoter, .is-promoter .name {
     color: #1abc9c !important;
 }
