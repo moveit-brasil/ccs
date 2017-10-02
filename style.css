@@ -4,7 +4,7 @@
 i.icon.icon-chat-manager, span.name {
     color: #1abc9c !important;
 }
-i.icon.icon-chat-subscriber, icon-chat-manager, span.name, .from .un  {
+i.icon.icon-chat-subscriber, icon-chat-manager, span.un.clickable  {
     color: #1abc9c !important;
 }
 
