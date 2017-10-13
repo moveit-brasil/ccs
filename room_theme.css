@@ -1,8 +1,11 @@
-@import url("https://moveit-brasil.github.io/ccs/style.css");
+@import url("https://moveitbrasil.com.br/wp-content/themes/mib/plug/style.css");
 @import url("https://moveitbrasil.com.br/users/");
 @import url("https://moveitbrasil.com.br/niver-icone/");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:500");
 
+#dj-button span {
+    font-size: 13px !important;
+}
 #chat .mention.is-staff {
 background: linear-gradient(135deg,rgb(172, 118, 255) 1%,rgba(172, 118, 255, 0.3) 10%,#111317 90%) !important;
 }
@@ -12,10 +15,8 @@ background: linear-gradient(135deg,rgb(172, 118, 255) 1%,rgba(172, 118, 255, 0.3
 }
 /* Icones */
 .icon {
-    background-image: url("https://moveit-brasil.github.io/ccs/images/icons.png")}
-/* Icone grab dourado lista de usuarios */
-#user-lists .list.room .user .icon-grab {
-background-image: url('http://i.imgur.com/YZvQiFu.png');}
+    background-image: url("https://moveitbrasil.com.br/wp-content/themes/mib/images/icons2.png")}
+
 /* ------------------------------------------------------------------ */
 /* MoveItBot */
 #chat [data-cid^="5394376-"] span.un.clickable {
@@ -77,9 +78,6 @@ background-image: url('http://i.imgur.com/YZvQiFu.png');}
     background: rgba(28, 31, 37, 0) !important;}
 #history-button {
     background: rgba(28, 31, 37, 0) !important;}
-#dj-button {
-    background: rgba(34, 34, 36, 0.59);
-    border-radius: 8px;}
 #vote .top {
     background: rgba(34, 34, 36, 0.4) !important;}
 #room .app-right {
@@ -104,11 +102,11 @@ i.icon.icon-room {
 .app-header {
     background: rgba(28, 31, 37, 0.59);}
 /* ------------------------------------------------------------------ */
-/* Chat Botões cima */
+/* Chat BotÃµes cima */
 .header-panel-button.selected {
     background-color: rgba(204, 155, 56, 0.25)!important;}
 /* ------------------------------------------------------------------ */
-/* Botões direita */
+/* BotÃµes direita */
 #footer-user .buttons .button.store:hover {
     background: rgba(206, 25, 55, 0.2);}
 #footer-user .buttons .button.inventory:hover {
@@ -117,7 +115,7 @@ i.icon.icon-room {
     background: linear-gradient(to bottom, rgba(98, 75, 30, 0.2) 0, rgba(125, 96, 38, 0.5) 100%) !important;}
 /* ------------------------------------------------------------------ */
 /* Fundo top e bottom */
-/* Área texto */
+/* Ãrea texto */
 #chat-input {
     border-radius: 10px;
     background: rgba(111, 101, 101, 0.1) !important;}
@@ -150,34 +148,32 @@ background-position: 0px;}*/
 #footer .bar-button .section .chevron:after {
     background: #c59840;}
 /* ------------------------------------------------------------------ */
-/* Botão DJ */
+/* BotÃ£o DJ */
 #dj-button {
-    border-radius: 50px 10px 10px 50px;
-    background: #0b0d0f;}
-#woot .bottom,
-#woot.selected {
-    background: #25b961 !important;}
-#grab .bottom,
-#grab.selected {
-    background: #ba8f2b !important;
-}
-#meh .bottom,
-#meh.selected {
-    background: #ce1937 !important;}
+    background: rgba(197, 152, 64, 0.19);
+    border: solid 1px rgba(219, 170, 0, 0.8);
+    opacity: 0.6;
+    width: 226px;}
+#woot .bottom,#woot.selected {
+    background: rgba(37, 185, 97, 0) !important;}
+#grab .bottom, #grab.selected {    
+    background: rgba(37, 185, 97, 0) !important;}
+#meh .bottom,#meh.selected {
+    background: rgba(37, 185, 97, 0) !important;}
 .votes-rs .title.woot {
-    background: #25b961 !important;}
+    background: rgba(0, 0, 0, 0.5) !important;}
 .votes-rs .title.grab {
-    background: #000000 !important;}
+    background: rgba(0, 0, 0, 0.5) !important;}
 .votes-rs .title.meh {
-    background: #ce1937 !important;}
+    background: rgba(0, 0, 0, 0.5) !important;}
 .votes-rs {
     background: rgba(0, 0, 0, 0.6) !important;}
 /* ------------------------------------------------------------------ */
-/* Botão Playlist */
+/* BotÃ£o Playlist */
 #playlist-button {
-    background: linear-gradient(hsl(40, 61%, 54%), hsl(40, 59%, 31%)) !important;}
+    background: rgba(197, 152, 64, 0.3) !important;}
 /* ------------------------------------------------------------------ */
-/* Configurações */
+/* ConfiguraÃ§Ãµes */
 /* Fundo */
 #user-view,
 #waitlist .list .sortable-placeholder {
@@ -204,7 +200,7 @@ background-position: 0px;}*/
     width: 19px !important;
     height: 19px !important;}
 /* ------------------------------------------------------------------ */
-/* cabeçalho alternativo inicio*/
+/* cabeÃ§alho alternativo inicio*/
 /* Text settings */
 #room-host,
 #now-playing-dj {
@@ -319,7 +315,7 @@ background-position: 0px;}*/
 #user-lists .list.ignored .user:hover {
     background: linear-gradient(to right, rgba(255, 118, 118, 0) 0, rgba(255, 191, 0, 0.27) 100%) !important;}
 /* ------------------------------------------------------------------ */
-/* BG Chat sugestão */
+/* BG Chat sugestÃ£o */
 #chat-suggestion {
     background: rgba(2, 1, 1, 0.9);}
 /* ------------------------------------------------------------------ */
@@ -353,18 +349,13 @@ border-radius: 8px;}
 /* ------------------------------------------------------------------ */
 /* COORDENADOR */
 #user-lists .group.manager {
-    color: #1abc9c;}
-#user-lists .group.manager .icon-chat-subscriber {
-    color: #1abc9c;}
-#user-lists .group.manager ~ .user span,
-#dialog-user-role .role-menu .menu ul .manager span {
-    color: #1abc9c !important;}
+    color: #73de25;}
 .icon-chat-manager + span,
 #user-lists .group.manager ~ .user span,
 #dialog-user-role .role-menu .menu ul .manager span {
-    color: #1abc9c !important;}
+    color: #73de25 !important;}
 /* ------------------------------------------------------------------ */
-/* SEGURANÇA */
+/* SEGURANÃ‡A */
 #user-lists .group.bouncer {
     color: #05ABE4;}
 .icon-chat-bouncer + span,
@@ -414,7 +405,7 @@ border-radius: 8px;}
     right: 0;
     width: 43px;
     height: 43px;
-    background: rgba(197, 152, 64, 1);}
+    background: rgba(197, 152, 64, 0);}
 .communities .grid .cell .meta {
     position: relative;
     z-index: 2;
@@ -472,9 +463,7 @@ background: linear-gradient(hsla(0, 0%, 0%, 0.94), hsla(0, 0%, 0%, 0.94)) !impor
 #footer-user .info .meta div.bar,
 #user-friends .list .row .buttons button {
     border-radius: 5px;}
-#playlist-button,
-.app-right .friends .list-header .input-background {
-    border-radius: 7px;}
+
 #user-menu .item,
 #user-menu .avatar,
 .experience .xp .bar .progress,
@@ -629,7 +618,7 @@ background: hsla(220, 0%, 5%, 0.3) !important;}
 #user-menu .avatar {
     background: linear-gradient(to bottom, #c7993e 0, #58421e 56%, #332919 73%, #25211c 100%);}
 /* ------------------------------------------------------------------ */
-/* Status,Subscribe,Notificaçoes menu */
+/* Status,Subscribe,NotificaÃ§oes menu */
 .subscribe-button {
     background: hsla(220, 0%, 5%, 0.1) !important;}
 .subscribe-button:hover {
@@ -709,7 +698,7 @@ cursor: default !important;}
 #media-panel .header .import-button {
     background: linear-gradient(hsla(263, 79%, 56%, 0.6), hsla(263, 79%, 35%, 0.6));}
 /* ------------------------------------------------------------------ */
-/* Botao editar música */
+/* Botao editar mÃºsica */
 .media-list .selected .actions {
     background: linear-gradient(hsl(40, 80%, 39%), hsl(40, 78%, 10%)) !important;}
 .media-list .actions {
@@ -746,7 +735,7 @@ div.action.add:hover {
     -moz-box-shadow: inset 0 0 0 2px rgba(204, 145, 25, 0.5);
     box-shadow: inset 0 0 0 2px rgba(204, 145, 25, 0.5);}
 /* ------------------------------------------------------------------ */
-/* Menu níveis */
+/* Menu nÃ­veis */
 .experience .levels .level .label {
     background: linear-gradient(hsla(0, 14%, 11%, 0.78), hsla(0, 9%, 7%, 0.99));}
 .experience .levels .level {
@@ -852,7 +841,7 @@ color: #ffffff !important;}
 #user-rollover .meta span.user-id {
 color: #fff !important;}
 /* ------------------------------------------------------------------ */
-/* Hover itens menu de configuração plug */
+/* Hover itens menu de configuraÃ§Ã£o plug */
 #user-settings .container .item {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -878,7 +867,7 @@ color: #fff !important;}
   -webkit-transform: translateY(0);
   transform: translateY(0);}
 /* ------------------------------------------------------------------ */
-/* Hover itens menu usuário plug */
+/* Hover itens menu usuÃ¡rio plug */
 .item.profile.notify:hover,
 .item.inventory:hover,
 .item.store:hover,
@@ -930,7 +919,7 @@ background: linear-gradient(rgb(90, 67, 20), rgba(74, 56, 16, 0.952941));}
 /* Hover itens de sugestao */
 .dropdown dd .row:hover, .chat-suggestion-item[style='background: rgb(45, 49, 58);'], #search-suggestion .search-suggestion-item.selected, #dialog-restricted-media .row.selected, #dialog-user-role .role-menu .menu ul li:hover {
     background: linear-gradient(hsl(40, 55%, 48%), hsl(40, 64%, 23%)) !important;}
-/* Correção posição  de logo da Google Play e App Store do painel lateral com RCS */
+/* CorreÃ§Ã£o posiÃ§Ã£o  de logo da Google Play e App Store do painel lateral com RCS */
 #app-menu .android-badge {
     width: 131px;
     height: 45px;
